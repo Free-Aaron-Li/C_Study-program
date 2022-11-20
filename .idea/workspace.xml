@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="C_Workspace" targetName="2-10-InplaceSwap" />
+      <config projectName="C_Workspace" targetName="1-6-GetcharTest" />
+      <config projectName="C_Workspace" targetName="1-7-EOFTest" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="959641ef-5876-4639-be00-1b530737bfa6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="1.3" />
+  </component>
+  <component name="ProjectId" id="2Ho03LjI7HEwEuf8ZX3TbbKqKoX" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/AaronLi/C_Workspace",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "structure.view.defaults.are.configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ChapterOneIntroduction/exercise" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.2-10-InplaceSwap">
+    <configuration name="1-6-GetcharTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-6-GetcharTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-6-GetcharTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="1-7-EOFTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-7-EOFTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-7-EOFTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2-10-InplaceSwap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="2-10-InplaceSwap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="2-10-InplaceSwap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.1-6-GetcharTest" />
+      <item itemvalue="CMake Application.1-7-EOFTest" />
+      <item itemvalue="CMake Application.2-10-InplaceSwap" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="959641ef-5876-4639-be00-1b530737bfa6" name="Changes" comment="" />
+      <created>1668935931241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668935931241</updated>
+      <workItem from="1668935936269" duration="523000" />
+      <workItem from="1668936474727" duration="70000" />
+      <workItem from="1668936560354" duration="2385000" />
+      <workItem from="1668938970469" duration="5571000" />
+      <workItem from="1668945046321" duration="1449000" />
+      <workItem from="1668946726492" duration="412000" />
+      <workItem from="1668947897397" duration="261000" />
+      <workItem from="1668948684872" duration="28000" />
+      <workItem from="1668948909580" duration="84000" />
+      <workItem from="1668949075599" duration="294000" />
+      <workItem from="1668949544145" duration="144000" />
+      <workItem from="1668950744333" duration="24000" />
+      <workItem from="1668950795591" duration="1812000" />
+      <workItem from="1668953028330" duration="144000" />
+      <workItem from="1668953221145" duration="27000" />
+      <workItem from="1668953275918" duration="29000" />
+      <workItem from="1668953330791" duration="42000" />
+      <workItem from="1668953378574" duration="1710000" />
+      <workItem from="1668955110193" duration="105000" />
+      <workItem from="1668955234648" duration="1077000" />
+      <workItem from="1668956313956" duration="1132000" />
+      <workItem from="1668957467884" duration="144000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

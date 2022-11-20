@@ -1,0 +1,110 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "ChapterOneIntroduction",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-ChapterOneIntroduction-Debug-21237164d5eca007b9cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ChapterOneIntroduction"
+				},
+				{
+					"build" : "ChapterOneIntroduction/exercise",
+					"jsonFile" : "directory-ChapterOneIntroduction.exercise-Debug-4db498a573e77dd0a6fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ChapterOneIntroduction/exercise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "C_Workspace",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "1-6-GetcharTest::@07b9c374b4a129fb2b71",
+					"jsonFile" : "target-1-6-GetcharTest-Debug-5f905336e5cd59942ca7.json",
+					"name" : "1-6-GetcharTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "1-7-EOFTest::@07b9c374b4a129fb2b71",
+					"jsonFile" : "target-1-7-EOFTest-Debug-99222b2fd58c784acc8e.json",
+					"name" : "1-7-EOFTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "2-10-InplaceSwap::@07b9c374b4a129fb2b71",
+					"jsonFile" : "target-2-10-InplaceSwap-Debug-3fb96c36eb4ab6b98ee7.json",
+					"name" : "2-10-InplaceSwap",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/AaronLi/C_Workspace/cmake-build-debug",
+		"source" : "/home/AaronLi/C_Workspace"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

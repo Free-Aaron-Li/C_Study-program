@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/CMakeFiles/2-10-InplaceSwap.dir/2-10-InplaceSwap.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/2-10-InplaceSwap.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/2-10-InplaceSwap.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/CMakeFiles/1-6-GetcharTest.dir/1-6-GetcharTest.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/1-6-GetcharTest.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/1-6-GetcharTest.c"
+}
+]

@@ -1,0 +1,8 @@
+/home/AaronLi/C_Workspace/build/CMakeFiles/edit_cache.dir
+/home/AaronLi/C_Workspace/build/CMakeFiles/rebuild_cache.dir
+/home/AaronLi/C_Workspace/build/ChapterOneIntroduction/CMakeFiles/edit_cache.dir
+/home/AaronLi/C_Workspace/build/ChapterOneIntroduction/CMakeFiles/rebuild_cache.dir
+/home/AaronLi/C_Workspace/build/ChapterOneIntroduction/exercise/CMakeFiles/2-10-InplaceSwap.dir
+/home/AaronLi/C_Workspace/build/ChapterOneIntroduction/exercise/CMakeFiles/1-6-GetcharTest.dir
+/home/AaronLi/C_Workspace/build/ChapterOneIntroduction/exercise/CMakeFiles/edit_cache.dir
+/home/AaronLi/C_Workspace/build/ChapterOneIntroduction/exercise/CMakeFiles/rebuild_cache.dir
