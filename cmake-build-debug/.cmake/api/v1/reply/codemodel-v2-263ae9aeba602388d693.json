@@ -47,7 +47,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -66,12 +67,20 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 2,
+					"id" : "1-13-WordHistogram::@07b9c374b4a129fb2b71",
+					"jsonFile" : "target-1-13-WordHistogram-Debug-66ecb3ab484986e5d37e.json",
+					"name" : "1-13-WordHistogram",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 2,
 					"id" : "1-6-GetcharTest::@07b9c374b4a129fb2b71",

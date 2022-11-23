@@ -26,8 +26,8 @@ int main() {
     int cnt = 5;
     reverse_array(a, cnt);
     for (int c = 0; c < cnt; c++) {
-        printf("%4.0d\n", a[c]);
-    }
+       printf("%4.0d\n", a[c]);
+   }
 }
 
 
