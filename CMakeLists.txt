@@ -9,3 +9,5 @@ set(CMAKE_C_FLAGS "${CMAKE_CXX_FLAGS} -save-temps=obj")
 
 
 add_subdirectory(ChapterOneIntroduction)
+add_subdirectory(ChapterTwoTypeOperatorsAndExpressions)
+add_subdirectory(ExpertCProgramming)

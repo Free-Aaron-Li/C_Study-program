@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ChapterTwoTypeOperatorsAndExpressions/exercise",
+		"source" : "ChapterTwoTypeOperatorsAndExpressions/exercise"
+	}
+}

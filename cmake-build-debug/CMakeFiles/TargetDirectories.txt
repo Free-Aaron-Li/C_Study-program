@@ -8,3 +8,13 @@
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/CMakeFiles/1-13-WordHistogram.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/CMakeFiles/edit_cache.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/CMakeFiles/rebuild_cache.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/CMakeFiles/edit_cache.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/CMakeFiles/rebuild_cache.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/edit_cache.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/rebuild_cache.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ExpertCProgramming/CMakeFiles/edit_cache.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ExpertCProgramming/CMakeFiles/rebuild_cache.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ExpertCProgramming/Introduction/CMakeFiles/edit_cache.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ExpertCProgramming/Introduction/CMakeFiles/rebuild_cache.dir

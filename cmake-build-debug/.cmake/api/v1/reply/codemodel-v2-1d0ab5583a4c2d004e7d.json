@@ -8,7 +8,9 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						3,
+						5
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -48,7 +50,67 @@
 						0,
 						1,
 						2,
+						4
+					]
+				},
+				{
+					"build" : "ChapterTwoTypeOperatorsAndExpressions",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-ChapterTwoTypeOperatorsAndExpressions-Debug-97f52abb51c95affecc2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ChapterTwoTypeOperatorsAndExpressions"
+				},
+				{
+					"build" : "ChapterTwoTypeOperatorsAndExpressions/exercise",
+					"jsonFile" : "directory-ChapterTwoTypeOperatorsAndExpressions.exercise-Debug-033eae64e9fa6afe4e7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "ChapterTwoTypeOperatorsAndExpressions/exercise",
+					"targetIndexes" : 
+					[
 						3
+					]
+				},
+				{
+					"build" : "ExpertCProgramming",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-ExpertCProgramming-Debug-5f57ee1dbea787990c78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ExpertCProgramming"
+				},
+				{
+					"build" : "ExpertCProgramming/Introduction",
+					"jsonFile" : "directory-ExpertCProgramming.Introduction-Debug-1a5e71b1002064811b7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "ExpertCProgramming/Introduction",
+					"targetIndexes" : 
+					[
+						5
 					]
 				}
 			],
@@ -60,7 +122,11 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4,
+						5,
+						6
 					],
 					"name" : "C_Workspace",
 					"targetIndexes" : 
@@ -68,7 +134,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -96,10 +164,24 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "2-1-DistinguishUnsignedBetweenSigned::@cb8f8a1aa16c402af4a3",
+					"jsonFile" : "target-2-1-DistinguishUnsignedBetweenSigned-Debug-27172c7333c36d80cf69.json",
+					"name" : "2-1-DistinguishUnsignedBetweenSigned",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "2-10-InplaceSwap::@07b9c374b4a129fb2b71",
 					"jsonFile" : "target-2-10-InplaceSwap-Debug-3fb96c36eb4ab6b98ee7.json",
 					"name" : "2-10-InplaceSwap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "TimeTest::@1e545507729a95a41c21",
+					"jsonFile" : "target-TimeTest-Debug-a82ad7235b2171f0da77.json",
+					"name" : "TimeTest",
 					"projectIndex" : 0
 				}
 			]
