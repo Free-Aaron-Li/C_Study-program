@@ -226,6 +226,70 @@ build ChapterOneIntroduction/exercise/1-13-WordHistogram: C_EXECUTABLE_LINKER__1
   TARGET_FILE = ChapterOneIntroduction/exercise/1-13-WordHistogram
   TARGET_PDB = 1-13-WordHistogram.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-6-Array
+
+
+#############################################
+# Order-only phony target for 1-6-Array
+
+build cmake_object_order_depends_target_1-6-Array: phony || ChapterOneIntroduction/exercise/CMakeFiles/1-6-Array.dir
+
+build ChapterOneIntroduction/exercise/CMakeFiles/1-6-Array.dir/1-6-Array.c.o: C_COMPILER__1-6-Array_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/1-6-Array.c || cmake_object_order_depends_target_1-6-Array
+  DEP_FILE = ChapterOneIntroduction/exercise/CMakeFiles/1-6-Array.dir/1-6-Array.c.o.d
+  FLAGS = -save-temps=obj -save-temps=obj -save-temps=obj -save-temps=obj -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-6-Array.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-6-Array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-6-Array
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/1-6-Array
+
+build ChapterOneIntroduction/exercise/1-6-Array: C_EXECUTABLE_LINKER__1-6-Array_Debug ChapterOneIntroduction/exercise/CMakeFiles/1-6-Array.dir/1-6-Array.c.o
+  FLAGS = -save-temps=obj -save-temps=obj -save-temps=obj -save-temps=obj -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-6-Array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/1-6-Array
+  TARGET_PDB = 1-6-Array.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-13-TheWordHistogram
+
+
+#############################################
+# Order-only phony target for 1-13-TheWordHistogram
+
+build cmake_object_order_depends_target_1-13-TheWordHistogram: phony || ChapterOneIntroduction/exercise/CMakeFiles/1-13-TheWordHistogram.dir
+
+build ChapterOneIntroduction/exercise/CMakeFiles/1-13-TheWordHistogram.dir/1-13-TheWordHistogram.c.o: C_COMPILER__1-13-TheWordHistogram_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/1-13-TheWordHistogram.c || cmake_object_order_depends_target_1-13-TheWordHistogram
+  DEP_FILE = ChapterOneIntroduction/exercise/CMakeFiles/1-13-TheWordHistogram.dir/1-13-TheWordHistogram.c.o.d
+  FLAGS = -save-temps=obj -save-temps=obj -save-temps=obj -save-temps=obj -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-13-TheWordHistogram.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-13-TheWordHistogram.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-13-TheWordHistogram
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/1-13-TheWordHistogram
+
+build ChapterOneIntroduction/exercise/1-13-TheWordHistogram: C_EXECUTABLE_LINKER__1-13-TheWordHistogram_Debug ChapterOneIntroduction/exercise/CMakeFiles/1-13-TheWordHistogram.dir/1-13-TheWordHistogram.c.o
+  FLAGS = -save-temps=obj -save-temps=obj -save-temps=obj -save-temps=obj -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-13-TheWordHistogram.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/1-13-TheWordHistogram
+  TARGET_PDB = 1-13-TheWordHistogram.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -433,7 +497,11 @@ build ExpertCProgramming/Introduction/rebuild_cache: phony ExpertCProgramming/In
 # =============================================================================
 # Target aliases.
 
+build 1-13-TheWordHistogram: phony ChapterOneIntroduction/exercise/1-13-TheWordHistogram
+
 build 1-13-WordHistogram: phony ChapterOneIntroduction/exercise/1-13-WordHistogram
+
+build 1-6-Array: phony ChapterOneIntroduction/exercise/1-6-Array
 
 build 1-6-GetcharTest: phony ChapterOneIntroduction/exercise/1-6-GetcharTest
 
@@ -467,7 +535,7 @@ build ChapterOneIntroduction/all: phony ChapterOneIntroduction/exercise/all
 #############################################
 # Folder: /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise
 
-build ChapterOneIntroduction/exercise/all: phony ChapterOneIntroduction/exercise/2-10-InplaceSwap ChapterOneIntroduction/exercise/1-6-GetcharTest ChapterOneIntroduction/exercise/1-7-EOFTest ChapterOneIntroduction/exercise/1-13-WordHistogram
+build ChapterOneIntroduction/exercise/all: phony ChapterOneIntroduction/exercise/2-10-InplaceSwap ChapterOneIntroduction/exercise/1-6-GetcharTest ChapterOneIntroduction/exercise/1-7-EOFTest ChapterOneIntroduction/exercise/1-13-WordHistogram ChapterOneIntroduction/exercise/1-6-Array ChapterOneIntroduction/exercise/1-13-TheWordHistogram
 
 # =============================================================================
 

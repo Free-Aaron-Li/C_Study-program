@@ -50,7 +50,9 @@
 						0,
 						1,
 						2,
-						4
+						3,
+						4,
+						6
 					]
 				},
 				{
@@ -80,7 +82,7 @@
 					"source" : "ChapterTwoTypeOperatorsAndExpressions/exercise",
 					"targetIndexes" : 
 					[
-						3
+						5
 					]
 				},
 				{
@@ -110,7 +112,7 @@
 					"source" : "ExpertCProgramming/Introduction",
 					"targetIndexes" : 
 					[
-						5
+						7
 					]
 				}
 			],
@@ -136,7 +138,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -144,22 +148,36 @@
 			[
 				{
 					"directoryIndex" : 2,
+					"id" : "1-13-TheWordHistogram::@07b9c374b4a129fb2b71",
+					"jsonFile" : "target-1-13-TheWordHistogram-Debug-1b0f411232073e538089.json",
+					"name" : "1-13-TheWordHistogram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
 					"id" : "1-13-WordHistogram::@07b9c374b4a129fb2b71",
-					"jsonFile" : "target-1-13-WordHistogram-Debug-66ecb3ab484986e5d37e.json",
+					"jsonFile" : "target-1-13-WordHistogram-Debug-ec3dda28629e16ca4e58.json",
 					"name" : "1-13-WordHistogram",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
+					"id" : "1-6-Array::@07b9c374b4a129fb2b71",
+					"jsonFile" : "target-1-6-Array-Debug-7017008792ba409146fc.json",
+					"name" : "1-6-Array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
 					"id" : "1-6-GetcharTest::@07b9c374b4a129fb2b71",
-					"jsonFile" : "target-1-6-GetcharTest-Debug-5f905336e5cd59942ca7.json",
+					"jsonFile" : "target-1-6-GetcharTest-Debug-f392ff750f1b3d6dde26.json",
 					"name" : "1-6-GetcharTest",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "1-7-EOFTest::@07b9c374b4a129fb2b71",
-					"jsonFile" : "target-1-7-EOFTest-Debug-99222b2fd58c784acc8e.json",
+					"jsonFile" : "target-1-7-EOFTest-Debug-3975875751a07e2dd329.json",
 					"name" : "1-7-EOFTest",
 					"projectIndex" : 0
 				},
@@ -173,7 +191,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "2-10-InplaceSwap::@07b9c374b4a129fb2b71",
-					"jsonFile" : "target-2-10-InplaceSwap-Debug-3fb96c36eb4ab6b98ee7.json",
+					"jsonFile" : "target-2-10-InplaceSwap-Debug-a2e95615219ffc70f285.json",
 					"name" : "2-10-InplaceSwap",
 					"projectIndex" : 0
 				},

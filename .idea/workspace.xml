@@ -8,9 +8,12 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="C_Workspace" targetName="2-1-DistinguishUnsignedBetweenSigned" />
       <config projectName="C_Workspace" targetName="2-10-InplaceSwap" />
+      <config projectName="C_Workspace" targetName="1-13-WordHistogram" />
       <config projectName="C_Workspace" targetName="1-6-GetcharTest" />
       <config projectName="C_Workspace" targetName="1-7-EOFTest" />
+      <config projectName="C_Workspace" targetName="TimeTest" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -19,7 +22,27 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="959641ef-5876-4639-be00-1b530737bfa6" name="Changes" comment="" />
+    <list default="true" id="959641ef-5876-4639-be00-1b530737bfa6" name="Changes" comment="更新第二章">
+      <change afterPath="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExpertCProgramming/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExpertCProgramming/Introduction/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExpertCProgramming/Introduction/TimeTest.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetwenSigned.c" beforeDir="false" afterPath="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7da51a44d0f9f596b461.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d77ed430b7e493a31899.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-263ae9aeba602388d693.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-21T10-21-31-0827.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,35 +68,48 @@
     <option name="minorVersion" value="1.3" />
   </component>
   <component name="ProjectId" id="2Ho03LjI7HEwEuf8ZX3TbbKqKoX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/AaronLi/C_Workspace",
+    "last_opened_file_path": "/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
     "structure.view.defaults.are.configured": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions" />
+      <recent name="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/exercise" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/exercise" />
       <recent name="$PROJECT_DIR$/ChapterOneIntroduction/exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.2-10-InplaceSwap">
+  <component name="RunManager" selected="CMake Application.TimeTest">
+    <configuration name="1-13-WordHistogram" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-13-WordHistogram" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-13-WordHistogram">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="1-6-GetcharTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-6-GetcharTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-6-GetcharTest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -84,20 +120,28 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="2-1-DistinguishUnsignedBetweenSigned" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="2-1-DistinguishUnsignedBetweenSigned" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="2-1-DistinguishUnsignedBetweenSigned">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="2-10-InplaceSwap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="2-10-InplaceSwap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="2-10-InplaceSwap">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="TimeTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="TimeTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="TimeTest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.1-13-WordHistogram" />
       <item itemvalue="CMake Application.1-6-GetcharTest" />
       <item itemvalue="CMake Application.1-7-EOFTest" />
       <item itemvalue="CMake Application.2-10-InplaceSwap" />
+      <item itemvalue="CMake Application.2-1-DistinguishUnsignedBetweenSigned" />
+      <item itemvalue="CMake Application.TimeTest" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -129,12 +173,58 @@
       <workItem from="1668955110193" duration="105000" />
       <workItem from="1668955234648" duration="1077000" />
       <workItem from="1668956313956" duration="1132000" />
-      <workItem from="1668957467884" duration="144000" />
+      <workItem from="1668957467884" duration="2227000" />
+      <workItem from="1668994364522" duration="353000" />
+      <workItem from="1669022026702" duration="1992000" />
+      <workItem from="1669026917797" duration="6158000" />
+      <workItem from="1669104487331" duration="66000" />
+      <workItem from="1669104555360" duration="294000" />
+      <workItem from="1669104851049" duration="161000" />
+      <workItem from="1669105014172" duration="46000" />
+      <workItem from="1669105062040" duration="22000" />
+      <workItem from="1669105086110" duration="1619000" />
+      <workItem from="1669193387821" duration="10889000" />
+      <workItem from="1669207386511" duration="1454000" />
+      <workItem from="1669295016329" duration="599000" />
+      <workItem from="1669515181520" duration="1431000" />
+      <workItem from="1669547848280" duration="1459000" />
+      <workItem from="1669556650336" duration="66000" />
     </task>
+    <task id="LOCAL-00001" summary="更新">
+      <created>1669193416141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669193416141</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新第二章">
+      <created>1669207071909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669207071909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新" />
+    <MESSAGE value="更新第二章" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新第二章" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
