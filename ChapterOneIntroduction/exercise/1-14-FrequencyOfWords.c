@@ -18,6 +18,7 @@ int main() {
     while ((c = getchar()) != EOF) {
         if ((c>='a')&&(c<='z')) {
             words[c-'a']++;
+
         }
     }
 
