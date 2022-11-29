@@ -52,7 +52,8 @@
 						2,
 						3,
 						4,
-						6
+						5,
+						7
 					]
 				},
 				{
@@ -82,7 +83,7 @@
 					"source" : "ChapterTwoTypeOperatorsAndExpressions/exercise",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -112,7 +113,7 @@
 					"source" : "ExpertCProgramming/Introduction",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				}
 			],
@@ -140,7 +141,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -158,6 +160,13 @@
 					"id" : "1-13-WordHistogram::@07b9c374b4a129fb2b71",
 					"jsonFile" : "target-1-13-WordHistogram-Debug-ec3dda28629e16ca4e58.json",
 					"name" : "1-13-WordHistogram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "1-14-FrequencyOfWords::@07b9c374b4a129fb2b71",
+					"jsonFile" : "target-1-14-FrequencyOfWords-Debug-197805cce54fa8a48ca6.json",
+					"name" : "1-14-FrequencyOfWords",
 					"projectIndex" : 0
 				},
 				{

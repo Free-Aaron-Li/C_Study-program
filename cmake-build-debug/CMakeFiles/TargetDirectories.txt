@@ -8,6 +8,7 @@
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/CMakeFiles/1-13-WordHistogram.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/CMakeFiles/1-6-Array.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/CMakeFiles/1-13-TheWordHistogram.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/CMakeFiles/1-14-FrequencyOfWords.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/CMakeFiles/edit_cache.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/CMakeFiles/rebuild_cache.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/CMakeFiles/edit_cache.dir

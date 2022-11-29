@@ -290,6 +290,38 @@ build ChapterOneIntroduction/exercise/1-13-TheWordHistogram: C_EXECUTABLE_LINKER
   TARGET_FILE = ChapterOneIntroduction/exercise/1-13-TheWordHistogram
   TARGET_PDB = 1-13-TheWordHistogram.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-14-FrequencyOfWords
+
+
+#############################################
+# Order-only phony target for 1-14-FrequencyOfWords
+
+build cmake_object_order_depends_target_1-14-FrequencyOfWords: phony || ChapterOneIntroduction/exercise/CMakeFiles/1-14-FrequencyOfWords.dir
+
+build ChapterOneIntroduction/exercise/CMakeFiles/1-14-FrequencyOfWords.dir/1-14-FrequencyOfWords.c.o: C_COMPILER__1-14-FrequencyOfWords_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/1-14-FrequencyOfWords.c || cmake_object_order_depends_target_1-14-FrequencyOfWords
+  DEP_FILE = ChapterOneIntroduction/exercise/CMakeFiles/1-14-FrequencyOfWords.dir/1-14-FrequencyOfWords.c.o.d
+  FLAGS = -save-temps=obj -save-temps=obj -save-temps=obj -save-temps=obj -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-14-FrequencyOfWords.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-14-FrequencyOfWords.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-14-FrequencyOfWords
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/1-14-FrequencyOfWords
+
+build ChapterOneIntroduction/exercise/1-14-FrequencyOfWords: C_EXECUTABLE_LINKER__1-14-FrequencyOfWords_Debug ChapterOneIntroduction/exercise/CMakeFiles/1-14-FrequencyOfWords.dir/1-14-FrequencyOfWords.c.o
+  FLAGS = -save-temps=obj -save-temps=obj -save-temps=obj -save-temps=obj -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-14-FrequencyOfWords.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/1-14-FrequencyOfWords
+  TARGET_PDB = 1-14-FrequencyOfWords.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -501,6 +533,8 @@ build 1-13-TheWordHistogram: phony ChapterOneIntroduction/exercise/1-13-TheWordH
 
 build 1-13-WordHistogram: phony ChapterOneIntroduction/exercise/1-13-WordHistogram
 
+build 1-14-FrequencyOfWords: phony ChapterOneIntroduction/exercise/1-14-FrequencyOfWords
+
 build 1-6-Array: phony ChapterOneIntroduction/exercise/1-6-Array
 
 build 1-6-GetcharTest: phony ChapterOneIntroduction/exercise/1-6-GetcharTest
@@ -535,7 +569,7 @@ build ChapterOneIntroduction/all: phony ChapterOneIntroduction/exercise/all
 #############################################
 # Folder: /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise
 
-build ChapterOneIntroduction/exercise/all: phony ChapterOneIntroduction/exercise/2-10-InplaceSwap ChapterOneIntroduction/exercise/1-6-GetcharTest ChapterOneIntroduction/exercise/1-7-EOFTest ChapterOneIntroduction/exercise/1-13-WordHistogram ChapterOneIntroduction/exercise/1-6-Array ChapterOneIntroduction/exercise/1-13-TheWordHistogram
+build ChapterOneIntroduction/exercise/all: phony ChapterOneIntroduction/exercise/2-10-InplaceSwap ChapterOneIntroduction/exercise/1-6-GetcharTest ChapterOneIntroduction/exercise/1-7-EOFTest ChapterOneIntroduction/exercise/1-13-WordHistogram ChapterOneIntroduction/exercise/1-6-Array ChapterOneIntroduction/exercise/1-13-TheWordHistogram ChapterOneIntroduction/exercise/1-14-FrequencyOfWords
 
 # =============================================================================
 
