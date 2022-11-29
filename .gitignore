@@ -1,0 +1,4 @@
+#忽略a.out可执行文件
+*a.out
+#忽略CLion配置文件
+/settings.zip
