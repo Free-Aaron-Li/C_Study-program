@@ -12,8 +12,11 @@
       <config projectName="C_Workspace" targetName="2-10-InplaceSwap" />
       <config projectName="C_Workspace" targetName="1-13-WordHistogram" />
       <config projectName="C_Workspace" targetName="1-6-GetcharTest" />
+      <config projectName="C_Workspace" targetName="1-14-FrequencyOfWords" />
       <config projectName="C_Workspace" targetName="1-7-EOFTest" />
       <config projectName="C_Workspace" targetName="TimeTest" />
+      <config projectName="C_Workspace" targetName="1-6-Array" />
+      <config projectName="C_Workspace" targetName="1-13-TheWordHistogram" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -22,27 +25,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="959641ef-5876-4639-be00-1b530737bfa6" name="Changes" comment="更新第二章">
-      <change afterPath="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertCProgramming/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertCProgramming/Introduction/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpertCProgramming/Introduction/TimeTest.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetwenSigned.c" beforeDir="false" afterPath="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7da51a44d0f9f596b461.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d77ed430b7e493a31899.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-263ae9aeba602388d693.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-21T10-21-31-0827.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-    </list>
+    <list default="true" id="959641ef-5876-4639-be00-1b530737bfa6" name="Changes" comment="字符频率直方图" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,24 +58,25 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
-    "structure.view.defaults.are.configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions" />
@@ -104,8 +88,23 @@
       <recent name="$PROJECT_DIR$/ChapterOneIntroduction/exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.TimeTest">
+  <component name="RunManager" selected="CMake Application.1-6-Array">
+    <configuration name="1-13-TheWordHistogram" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-13-TheWordHistogram" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-13-TheWordHistogram">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="1-13-WordHistogram" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-13-WordHistogram" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-13-WordHistogram">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="1-14-FrequencyOfWords" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-14-FrequencyOfWords" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-14-FrequencyOfWords">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="1-6-Array" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-6-Array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-6-Array">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -136,7 +135,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.1-13-TheWordHistogram" />
       <item itemvalue="CMake Application.1-13-WordHistogram" />
+      <item itemvalue="CMake Application.1-14-FrequencyOfWords" />
+      <item itemvalue="CMake Application.1-6-Array" />
       <item itemvalue="CMake Application.1-6-GetcharTest" />
       <item itemvalue="CMake Application.1-7-EOFTest" />
       <item itemvalue="CMake Application.2-10-InplaceSwap" />
@@ -188,7 +190,20 @@
       <workItem from="1669295016329" duration="599000" />
       <workItem from="1669515181520" duration="1431000" />
       <workItem from="1669547848280" duration="1459000" />
-      <workItem from="1669556650336" duration="66000" />
+      <workItem from="1669556650336" duration="162000" />
+      <workItem from="1669631760864" duration="676000" />
+      <workItem from="1669708756395" duration="1280000" />
+      <workItem from="1669712108392" duration="5567000" />
+      <workItem from="1669719728909" duration="331000" />
+      <workItem from="1669720086067" duration="1690000" />
+      <workItem from="1669721799494" duration="362000" />
+      <workItem from="1669722302014" duration="460000" />
+      <workItem from="1669722829878" duration="435000" />
+      <workItem from="1669723317397" duration="2148000" />
+      <workItem from="1669725468277" duration="150000" />
+      <workItem from="1669725620952" duration="158000" />
+      <workItem from="1669725781449" duration="132000" />
+      <workItem from="1669725917258" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1669193416141</created>
@@ -204,7 +219,42 @@
       <option name="project" value="LOCAL" />
       <updated>1669207071909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新">
+      <created>1669556738966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669556738967</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新">
+      <created>1669719985562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669719985562</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新">
+      <created>1669723361846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669723361846</updated>
+    </task>
+    <task id="LOCAL-00006" summary="字符频率直方图">
+      <created>1669725420851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669725420851</updated>
+    </task>
+    <task id="LOCAL-00007" summary="字符频率直方图">
+      <created>1669725949046</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669725949046</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,9 +272,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新" />
     <MESSAGE value="更新第二章" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新第二章" />
+    <MESSAGE value="更新" />
+    <MESSAGE value="字符频率直方图" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符频率直方图" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

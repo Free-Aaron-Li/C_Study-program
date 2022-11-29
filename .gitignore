@@ -1,4 +1,13 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
 #忽略a.out可执行文件
 *a.out
 #忽略CLion配置文件
 settings.zip
+
