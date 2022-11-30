@@ -16,17 +16,16 @@ int main() {
     }
 
     while ((c = getchar()) != EOF) {
-        if ((c>='a')&&(c<='z')) {
-            words[c-'a']++;
+        if ((c >= 'a') && (c <= 'z')) {
+            words[c - 'a']++;
         }
     }
 
-    for (int m = 0; m < 26; ++m) {
-        int i;
-        putchar(m+'a');
+    for (int m = 0; m < 26; m++) {
+        putchar(m + 'a');
         putchar('|');
-        for (i = 0; i < words[i]; ++i) {
-            printf("*");
+        for (int j = 0; j < words[m]; j++) {
+            putchar('*');
         }
         printf("\n");
     }
