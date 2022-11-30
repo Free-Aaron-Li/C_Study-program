@@ -5,7 +5,6 @@
  * @description 编写一个程序，打印输入中单词长度的直方图。水平方向的直方图比较容易绘制
  * @link
  */
-
 #include <stdio.h>
 
 #define WORD_OUT 0      // outside a word

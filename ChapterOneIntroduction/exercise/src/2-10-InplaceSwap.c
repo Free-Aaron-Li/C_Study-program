@@ -1,7 +1,6 @@
 //
 // Created by AaronLi on 11/20/22.
 //
-
 #include <stdio.h>
 
 /*  实现将一个数组中的元素头尾两端依次对调
@@ -29,5 +28,3 @@ int main() {
        printf("%4.0d\n", a[c]);
    }
 }
-
-

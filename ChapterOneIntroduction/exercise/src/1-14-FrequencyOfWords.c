@@ -5,7 +5,6 @@
  * @description 编写一个程序，打印输入中各个字符出现频率的直方图
  * @link
  */
-
 #include <stdio.h>
 
 int main() {
@@ -30,5 +29,4 @@ int main() {
         printf("\n");
     }
 }
-
 

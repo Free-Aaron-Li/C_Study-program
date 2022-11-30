@@ -3,8 +3,8 @@
 // Created by AaronLi  
 // Date: 2022-11-20-22  
 //
-
 #include <stdio.h>
+
 int main(){
     int n;
     while ((n=getchar())!= EOF)
@@ -12,4 +12,3 @@ int main(){
     //printf("EOF is %d\n",EOF);
     return 0;
 }
-

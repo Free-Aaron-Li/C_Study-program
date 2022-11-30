@@ -1,9 +1,8 @@
 //
-// File name: 1-6-GetcharTest.cpp  
+// File name: 1-6-GetcharTest.cpp
 // Created by AaronLi  
 // Date: 2022-11-20-22  
 //
-
 #include <stdio.h>
 
 int main() {

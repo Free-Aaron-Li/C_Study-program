@@ -4,7 +4,6 @@
 // Date: 2022-11-21-18
 // Description: 打印输入中单词长度的直方图
 //
-
 #include <stdio.h>
 
 #define MAXHIST 15      /* max length of histogram  */
