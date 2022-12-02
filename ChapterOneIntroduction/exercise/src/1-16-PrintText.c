@@ -9,39 +9,86 @@
 #include <stdio.h>
 
 #define MAXLINE 1000        /* The maximum value is MAXLINE */
-#define MINNUM 80           /* The minimum value is MINNUM */
+#define MINNUM 8            /* The minimum value is MINNUM */
+#define OUTPUT 1024         /* Array of output statements */
 
 int getLine(char s[], int len);
 
-int main() {
-    char line[MAXLINE];
-    int curLen = getLine(line, MAXLINE);
+int copy(char dst[], int nDstStart, int nDstLen, const char src[]);
 
+/**
+ * @date 12/2/22 11:34 PM
+ * @description print lines longer than MINNUM
+ */
+
+int main() {
+    char line[MAXLINE];                             /* current input line */
+    char outPut[OUTPUT];
+
+    int len;                                        /* current line length */
+    int j = 0;
+
+    while ((len = getLine(line, MAXLINE)) > 0) {
+        if (len > MINNUM) {
+            j = copy(outPut, j, OUTPUT, line);
+        }
+    }
+
+    printf("%s", outPut);
 }
 
 /**
  * @param char s[] ,int len
- * @return i
+ * @return int i
  * @date 12/2/22 6:54 PM
- * @description reading all lines from printText
+ * @description
  */
 
-int getLine(char s[], int len) {        /* s[] is printText,len is MINNUM */
-    int c, i, j;
-    j = 0;
+int getLine(char s[], int len) {
+    /* "i" is the return value of the string length */
+    int c, i;
+    i = 0;
 
-    for (i = 0; (c = getchar()) != EOF && c != '\n'; ++i) {
+    while ((c = getchar()) != EOF && (c != '\n')) {
+        /* Since there are len elements in s, we have already read the input characters, we will leave the '\n' and '\0' characters */
         if (i < (len - 2)) {
-            s[j] = (char) c;          /* line still in boundaries*/
-            ++j;
+            s[i] = (char) c;            /* line still in boundaries*/
+            ++i;
         }
     }
 
-    if(c!=EOF){
-        s[i]=(char)c;
+    if (c != EOF) {
+        s[i] = (char) c;
         ++i;
     }
 
-    s[i]='\0';
+    s[i] = '\0';
     return i;
+}
+
+/**
+ * @param output array 'dst', copied array 'src ', start element 'nDstStart', end element 'nDstLen'
+ * @return nDstStart
+ * @date 12/3/22 12:16 AM
+ * @description copied from src to dst with nDstStart and nDstLen
+ */
+
+int copy(char dst[], int nDstStart, int nDstLen, const char src[]) {
+    int i = 0;
+
+    while (1) {
+        if (nDstStart >= nDstLen) {         /* Array out of bounds judgment */
+            break;
+        }
+        dst[nDstStart] = src[i];
+        if (src[i] == '\0') {
+            break;
+        }
+        i++;
+        nDstStart++;
+    }
+
+    dst[nDstLen - 1] = '\0';                /* Make sure the last element of the array is '\0' */
+
+    return nDstStart;
 }
