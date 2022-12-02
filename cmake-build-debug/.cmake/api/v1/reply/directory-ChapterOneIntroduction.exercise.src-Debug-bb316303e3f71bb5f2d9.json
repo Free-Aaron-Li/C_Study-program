@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ChapterOneIntroduction/exercise/src",
+		"source" : "ChapterOneIntroduction/exercise/src"
+	}
+}

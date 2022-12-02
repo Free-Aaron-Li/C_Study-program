@@ -89,6 +89,9 @@
 			"path" : "ChapterOneIntroduction/exercise/CMakeLists.txt"
 		},
 		{
+			"path" : "ChapterOneIntroduction/exercise/src/CMakeLists.txt"
+		},
+		{
 			"path" : "ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt"
 		},
 		{

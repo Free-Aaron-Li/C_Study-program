@@ -52,7 +52,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -save-temps=obj -save-temps=obj -save-temps=obj -save-temps=obj -g"
+					"fragment" : " -save-temps=obj -save-temps=obj -save-temps=obj -g"
 				},
 				{
 					"fragment" : "-std=gnu99"
@@ -90,7 +90,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-save-temps=obj -save-temps=obj -save-temps=obj -save-temps=obj -g",
+				"fragment" : "-save-temps=obj -save-temps=obj -save-temps=obj -g",
 				"role" : "flags"
 			},
 			{
