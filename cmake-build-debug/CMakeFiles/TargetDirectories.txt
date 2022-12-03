@@ -8,7 +8,8 @@
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir
-/home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/src/CMakeFiles/1-16-PrintText.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir

@@ -256,36 +256,68 @@ build ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion: C_EXECUTAB
   TARGET_PDB = 1-15-TemperatureConversion.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 1-16-PrintText
+# Object build statements for EXECUTABLE target 1-17-PrintText
 
 
 #############################################
-# Order-only phony target for 1-16-PrintText
+# Order-only phony target for 1-17-PrintText
 
-build cmake_object_order_depends_target_1-16-PrintText: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-16-PrintText.dir
+build cmake_object_order_depends_target_1-17-PrintText: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
 
-build ChapterOneIntroduction/exercise/src/CMakeFiles/1-16-PrintText.dir/1-16-PrintText.c.o: C_COMPILER__1-16-PrintText_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-16-PrintText.c || cmake_object_order_depends_target_1-16-PrintText
-  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-16-PrintText.dir/1-16-PrintText.c.o.d
+build ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir/1-17-PrintText.c.o: C_COMPILER__1-17-PrintText_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-17-PrintText.c || cmake_object_order_depends_target_1-17-PrintText
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir/1-17-PrintText.c.o.d
   FLAGS = -g -std=gnu99
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
-  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-16-PrintText.dir
-  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-16-PrintText.dir
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1-16-PrintText
+# Link build statements for EXECUTABLE target 1-17-PrintText
 
 
 #############################################
-# Link the executable ChapterOneIntroduction/exercise/src/1-16-PrintText
+# Link the executable ChapterOneIntroduction/exercise/src/1-17-PrintText
 
-build ChapterOneIntroduction/exercise/src/1-16-PrintText: C_EXECUTABLE_LINKER__1-16-PrintText_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-16-PrintText.dir/1-16-PrintText.c.o
+build ChapterOneIntroduction/exercise/src/1-17-PrintText: C_EXECUTABLE_LINKER__1-17-PrintText_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir/1-17-PrintText.c.o
   FLAGS = -g
-  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-16-PrintText.dir
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-16-PrintText
-  TARGET_PDB = 1-16-PrintText.dbg
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-17-PrintText
+  TARGET_PDB = 1-17-PrintText.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-18-DeleteSpaces
+
+
+#############################################
+# Order-only phony target for 1-18-DeleteSpaces
+
+build cmake_object_order_depends_target_1-18-DeleteSpaces: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir/1-18-DeleteSpaces.c.o: C_COMPILER__1-18-DeleteSpaces_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces.c || cmake_object_order_depends_target_1-18-DeleteSpaces
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir/1-18-DeleteSpaces.c.o.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-18-DeleteSpaces
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces
+
+build ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces: C_EXECUTABLE_LINKER__1-18-DeleteSpaces_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir/1-18-DeleteSpaces.c.o
+  FLAGS = -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces
+  TARGET_PDB = 1-18-DeleteSpaces.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1-6-Array
@@ -630,7 +662,9 @@ build 1-14-FrequencyOfWords: phony ChapterOneIntroduction/exercise/src/1-14-Freq
 
 build 1-15-TemperatureConversion: phony ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion
 
-build 1-16-PrintText: phony ChapterOneIntroduction/exercise/src/1-16-PrintText
+build 1-17-PrintText: phony ChapterOneIntroduction/exercise/src/1-17-PrintText
+
+build 1-18-DeleteSpaces: phony ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces
 
 build 1-6-Array: phony ChapterOneIntroduction/exercise/src/1-6-Array
 
@@ -673,7 +707,7 @@ build ChapterOneIntroduction/exercise/all: phony ChapterOneIntroduction/exercise
 #############################################
 # Folder: /home/AaronLi/C_Workspace/cmake-build-debug/ChapterOneIntroduction/exercise/src
 
-build ChapterOneIntroduction/exercise/src/all: phony ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram ChapterOneIntroduction/exercise/src/1-13-WordHistogram ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion ChapterOneIntroduction/exercise/src/1-16-PrintText ChapterOneIntroduction/exercise/src/1-6-Array ChapterOneIntroduction/exercise/src/1-6-GetcharTest ChapterOneIntroduction/exercise/src/1-7-EOFTest ChapterOneIntroduction/exercise/src/2-10-InplaceSwap
+build ChapterOneIntroduction/exercise/src/all: phony ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram ChapterOneIntroduction/exercise/src/1-13-WordHistogram ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion ChapterOneIntroduction/exercise/src/1-17-PrintText ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces ChapterOneIntroduction/exercise/src/1-6-Array ChapterOneIntroduction/exercise/src/1-6-GetcharTest ChapterOneIntroduction/exercise/src/1-7-EOFTest ChapterOneIntroduction/exercise/src/2-10-InplaceSwap
 
 # =============================================================================
 
