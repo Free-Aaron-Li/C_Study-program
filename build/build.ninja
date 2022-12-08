@@ -96,70 +96,6 @@ build ChapterOneIntroduction/rebuild_cache: phony ChapterOneIntroduction/CMakeFi
 # /home/AaronLi/C_Workspace/ChapterOneIntroduction/CMakeLists.txt
 # =============================================================================
 
-# =============================================================================
-# Object build statements for EXECUTABLE target 2-10-InplaceSwap
-
-
-#############################################
-# Order-only phony target for 2-10-InplaceSwap
-
-build cmake_object_order_depends_target_2-10-InplaceSwap: phony || ChapterOneIntroduction/exercise/CMakeFiles/2-10-InplaceSwap.dir
-
-build ChapterOneIntroduction/exercise/CMakeFiles/2-10-InplaceSwap.dir/2-10-InplaceSwap.c.o: C_COMPILER__2-10-InplaceSwap_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/2-10-InplaceSwap.c || cmake_object_order_depends_target_2-10-InplaceSwap
-  DEP_FILE = ChapterOneIntroduction/exercise/CMakeFiles/2-10-InplaceSwap.dir/2-10-InplaceSwap.c.o.d
-  FLAGS = -g -std=gnu99
-  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/.
-  OBJECT_DIR = ChapterOneIntroduction/exercise/CMakeFiles/2-10-InplaceSwap.dir
-  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/CMakeFiles/2-10-InplaceSwap.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2-10-InplaceSwap
-
-
-#############################################
-# Link the executable ChapterOneIntroduction/exercise/2-10-InplaceSwap
-
-build ChapterOneIntroduction/exercise/2-10-InplaceSwap: C_EXECUTABLE_LINKER__2-10-InplaceSwap_Debug ChapterOneIntroduction/exercise/CMakeFiles/2-10-InplaceSwap.dir/2-10-InplaceSwap.c.o
-  FLAGS = -g
-  OBJECT_DIR = ChapterOneIntroduction/exercise/CMakeFiles/2-10-InplaceSwap.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = ChapterOneIntroduction/exercise/2-10-InplaceSwap
-  TARGET_PDB = 2-10-InplaceSwap.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 1-6-GetcharTest
-
-
-#############################################
-# Order-only phony target for 1-6-GetcharTest
-
-build cmake_object_order_depends_target_1-6-GetcharTest: phony || ChapterOneIntroduction/exercise/CMakeFiles/1-6-GetcharTest.dir
-
-build ChapterOneIntroduction/exercise/CMakeFiles/1-6-GetcharTest.dir/1-6-GetcharTest.c.o: C_COMPILER__1-6-GetcharTest_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/1-6-GetcharTest.c || cmake_object_order_depends_target_1-6-GetcharTest
-  DEP_FILE = ChapterOneIntroduction/exercise/CMakeFiles/1-6-GetcharTest.dir/1-6-GetcharTest.c.o.d
-  FLAGS = -g -std=gnu99
-  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/.
-  OBJECT_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-6-GetcharTest.dir
-  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-6-GetcharTest.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 1-6-GetcharTest
-
-
-#############################################
-# Link the executable ChapterOneIntroduction/exercise/1-6-GetcharTest
-
-build ChapterOneIntroduction/exercise/1-6-GetcharTest: C_EXECUTABLE_LINKER__1-6-GetcharTest_Debug ChapterOneIntroduction/exercise/CMakeFiles/1-6-GetcharTest.dir/1-6-GetcharTest.c.o
-  FLAGS = -g
-  OBJECT_DIR = ChapterOneIntroduction/exercise/CMakeFiles/1-6-GetcharTest.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = ChapterOneIntroduction/exercise/1-6-GetcharTest
-  TARGET_PDB = 1-6-GetcharTest.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -184,11 +120,651 @@ build ChapterOneIntroduction/exercise/CMakeFiles/rebuild_cache.util: CUSTOM_COMM
 build ChapterOneIntroduction/exercise/rebuild_cache: phony ChapterOneIntroduction/exercise/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-13-TheWordHistogram
+
+
+#############################################
+# Order-only phony target for 1-13-TheWordHistogram
+
+build cmake_object_order_depends_target_1-13-TheWordHistogram: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir/1-13-TheWordHistogram.c.o: C_COMPILER__1-13-TheWordHistogram_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram.c || cmake_object_order_depends_target_1-13-TheWordHistogram
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir/1-13-TheWordHistogram.c.o.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-13-TheWordHistogram
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram
+
+build ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram: C_EXECUTABLE_LINKER__1-13-TheWordHistogram_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir/1-13-TheWordHistogram.c.o
+  FLAGS = -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram
+  TARGET_PDB = 1-13-TheWordHistogram.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-13-WordHistogram
+
+
+#############################################
+# Order-only phony target for 1-13-WordHistogram
+
+build cmake_object_order_depends_target_1-13-WordHistogram: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir/1-13-WordHistogram.c.o: C_COMPILER__1-13-WordHistogram_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-13-WordHistogram.c || cmake_object_order_depends_target_1-13-WordHistogram
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir/1-13-WordHistogram.c.o.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-13-WordHistogram
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/src/1-13-WordHistogram
+
+build ChapterOneIntroduction/exercise/src/1-13-WordHistogram: C_EXECUTABLE_LINKER__1-13-WordHistogram_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir/1-13-WordHistogram.c.o
+  FLAGS = -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-13-WordHistogram
+  TARGET_PDB = 1-13-WordHistogram.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-14-FrequencyOfWords
+
+
+#############################################
+# Order-only phony target for 1-14-FrequencyOfWords
+
+build cmake_object_order_depends_target_1-14-FrequencyOfWords: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir/1-14-FrequencyOfWords.c.o: C_COMPILER__1-14-FrequencyOfWords_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords.c || cmake_object_order_depends_target_1-14-FrequencyOfWords
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir/1-14-FrequencyOfWords.c.o.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-14-FrequencyOfWords
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords
+
+build ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords: C_EXECUTABLE_LINKER__1-14-FrequencyOfWords_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir/1-14-FrequencyOfWords.c.o
+  FLAGS = -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords
+  TARGET_PDB = 1-14-FrequencyOfWords.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-15-TemperatureConversion
+
+
+#############################################
+# Order-only phony target for 1-15-TemperatureConversion
+
+build cmake_object_order_depends_target_1-15-TemperatureConversion: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir/1-15-TemperatureConversion.c.o: C_COMPILER__1-15-TemperatureConversion_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion.c || cmake_object_order_depends_target_1-15-TemperatureConversion
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir/1-15-TemperatureConversion.c.o.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-15-TemperatureConversion
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion
+
+build ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion: C_EXECUTABLE_LINKER__1-15-TemperatureConversion_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir/1-15-TemperatureConversion.c.o
+  FLAGS = -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion
+  TARGET_PDB = 1-15-TemperatureConversion.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-17-PrintText
+
+
+#############################################
+# Order-only phony target for 1-17-PrintText
+
+build cmake_object_order_depends_target_1-17-PrintText: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir/1-17-PrintText.c.o: C_COMPILER__1-17-PrintText_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-17-PrintText.c || cmake_object_order_depends_target_1-17-PrintText
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir/1-17-PrintText.c.o.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-17-PrintText
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/src/1-17-PrintText
+
+build ChapterOneIntroduction/exercise/src/1-17-PrintText: C_EXECUTABLE_LINKER__1-17-PrintText_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir/1-17-PrintText.c.o
+  FLAGS = -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-17-PrintText
+  TARGET_PDB = 1-17-PrintText.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-18-DeleteSpaces
+
+
+#############################################
+# Order-only phony target for 1-18-DeleteSpaces
+
+build cmake_object_order_depends_target_1-18-DeleteSpaces: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir/1-18-DeleteSpaces.c.o: C_COMPILER__1-18-DeleteSpaces_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces.c || cmake_object_order_depends_target_1-18-DeleteSpaces
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir/1-18-DeleteSpaces.c.o.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-18-DeleteSpaces
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces
+
+build ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces: C_EXECUTABLE_LINKER__1-18-DeleteSpaces_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir/1-18-DeleteSpaces.c.o
+  FLAGS = -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces
+  TARGET_PDB = 1-18-DeleteSpaces.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-6-Array
+
+
+#############################################
+# Order-only phony target for 1-6-Array
+
+build cmake_object_order_depends_target_1-6-Array: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir/1-6-Array.c.o: C_COMPILER__1-6-Array_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-6-Array.c || cmake_object_order_depends_target_1-6-Array
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir/1-6-Array.c.o.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-6-Array
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/src/1-6-Array
+
+build ChapterOneIntroduction/exercise/src/1-6-Array: C_EXECUTABLE_LINKER__1-6-Array_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir/1-6-Array.c.o
+  FLAGS = -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-6-Array
+  TARGET_PDB = 1-6-Array.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-6-GetcharTest
+
+
+#############################################
+# Order-only phony target for 1-6-GetcharTest
+
+build cmake_object_order_depends_target_1-6-GetcharTest: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir/1-6-GetcharTest.c.o: C_COMPILER__1-6-GetcharTest_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-6-GetcharTest.c || cmake_object_order_depends_target_1-6-GetcharTest
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir/1-6-GetcharTest.c.o.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-6-GetcharTest
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/src/1-6-GetcharTest
+
+build ChapterOneIntroduction/exercise/src/1-6-GetcharTest: C_EXECUTABLE_LINKER__1-6-GetcharTest_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir/1-6-GetcharTest.c.o
+  FLAGS = -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-6-GetcharTest
+  TARGET_PDB = 1-6-GetcharTest.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-7-EOFTest
+
+
+#############################################
+# Order-only phony target for 1-7-EOFTest
+
+build cmake_object_order_depends_target_1-7-EOFTest: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir/1-7-EOFTest.c.o: C_COMPILER__1-7-EOFTest_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-7-EOFTest.c || cmake_object_order_depends_target_1-7-EOFTest
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir/1-7-EOFTest.c.o.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-7-EOFTest
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/src/1-7-EOFTest
+
+build ChapterOneIntroduction/exercise/src/1-7-EOFTest: C_EXECUTABLE_LINKER__1-7-EOFTest_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir/1-7-EOFTest.c.o
+  FLAGS = -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/1-7-EOFTest
+  TARGET_PDB = 1-7-EOFTest.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-10-InplaceSwap
+
+
+#############################################
+# Order-only phony target for 2-10-InplaceSwap
+
+build cmake_object_order_depends_target_2-10-InplaceSwap: phony || ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir/2-10-InplaceSwap.c.o: C_COMPILER__2-10-InplaceSwap_Debug /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/2-10-InplaceSwap.c || cmake_object_order_depends_target_2-10-InplaceSwap
+  DEP_FILE = ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir/2-10-InplaceSwap.c.o.d
+  FLAGS = -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir
+  OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-10-InplaceSwap
+
+
+#############################################
+# Link the executable ChapterOneIntroduction/exercise/src/2-10-InplaceSwap
+
+build ChapterOneIntroduction/exercise/src/2-10-InplaceSwap: C_EXECUTABLE_LINKER__2-10-InplaceSwap_Debug ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir/2-10-InplaceSwap.c.o
+  FLAGS = -g
+  OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterOneIntroduction/exercise/src/2-10-InplaceSwap
+  TARGET_PDB = 2-10-InplaceSwap.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ChapterOneIntroduction/exercise/src && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ChapterOneIntroduction/exercise/src/edit_cache: phony ChapterOneIntroduction/exercise/src/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ChapterOneIntroduction/exercise/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ChapterOneIntroduction/exercise/src && /usr/bin/cmake --regenerate-during-build -S/home/AaronLi/C_Workspace -B/home/AaronLi/C_Workspace/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ChapterOneIntroduction/exercise/src/rebuild_cache: phony ChapterOneIntroduction/exercise/src/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/AaronLi/C_Workspace/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build ChapterTwoTypeOperatorsAndExpressions/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ChapterTwoTypeOperatorsAndExpressions && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ChapterTwoTypeOperatorsAndExpressions/edit_cache: phony ChapterTwoTypeOperatorsAndExpressions/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ChapterTwoTypeOperatorsAndExpressions/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ChapterTwoTypeOperatorsAndExpressions && /usr/bin/cmake --regenerate-during-build -S/home/AaronLi/C_Workspace -B/home/AaronLi/C_Workspace/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ChapterTwoTypeOperatorsAndExpressions/rebuild_cache: phony ChapterTwoTypeOperatorsAndExpressions/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-1-DistinguishUnsignedBetweenSigned
+
+
+#############################################
+# Order-only phony target for 2-1-DistinguishUnsignedBetweenSigned
+
+build cmake_object_order_depends_target_2-1-DistinguishUnsignedBetweenSigned: phony || ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir
+
+build ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir/2-1-DistinguishUnsignedBetweenSigned.c.o: C_COMPILER__2-1-DistinguishUnsignedBetweenSigned_Debug /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned.c || cmake_object_order_depends_target_2-1-DistinguishUnsignedBetweenSigned
+  DEP_FILE = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir/2-1-DistinguishUnsignedBetweenSigned.c.o.d
+  FLAGS = -save-temps=obj -save-temps=obj -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/. -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/.
+  OBJECT_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir
+  OBJECT_FILE_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-1-DistinguishUnsignedBetweenSigned
+
+
+#############################################
+# Link the executable ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned
+
+build ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned: C_EXECUTABLE_LINKER__2-1-DistinguishUnsignedBetweenSigned_Debug ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir/2-1-DistinguishUnsignedBetweenSigned.c.o
+  FLAGS = -save-temps=obj -save-temps=obj -g
+  OBJECT_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned
+  TARGET_PDB = 2-1-DistinguishUnsignedBetweenSigned.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-3-htoi
+
+
+#############################################
+# Order-only phony target for 2-3-htoi
+
+build cmake_object_order_depends_target_2-3-htoi: phony || ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir
+
+build ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir/2-3-htoi.c.o: C_COMPILER__2-3-htoi_Debug /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi.c || cmake_object_order_depends_target_2-3-htoi
+  DEP_FILE = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir/2-3-htoi.c.o.d
+  FLAGS = -save-temps=obj -save-temps=obj -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/. -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/.
+  OBJECT_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir
+  OBJECT_FILE_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-3-htoi
+
+
+#############################################
+# Link the executable ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi
+
+build ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi: C_EXECUTABLE_LINKER__2-3-htoi_Debug ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir/2-3-htoi.c.o
+  FLAGS = -save-temps=obj -save-temps=obj -g
+  OBJECT_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi
+  TARGET_PDB = 2-3-htoi.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ChapterTwoTypeOperatorsAndExpressions/exercise && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ChapterTwoTypeOperatorsAndExpressions/exercise/edit_cache: phony ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ChapterTwoTypeOperatorsAndExpressions/exercise && /usr/bin/cmake --regenerate-during-build -S/home/AaronLi/C_Workspace -B/home/AaronLi/C_Workspace/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ChapterTwoTypeOperatorsAndExpressions/exercise/rebuild_cache: phony ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-7-TypeConversion
+
+
+#############################################
+# Order-only phony target for 2-7-TypeConversion
+
+build cmake_object_order_depends_target_2-7-TypeConversion: phony || ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/2-7-TypeConversion.dir
+
+build ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/2-7-TypeConversion.dir/2-7-TypeConversion.c.o: C_COMPILER__2-7-TypeConversion_Debug /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/book/2-7-TypeConversion.c || cmake_object_order_depends_target_2-7-TypeConversion
+  DEP_FILE = ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/2-7-TypeConversion.dir/2-7-TypeConversion.c.o.d
+  FLAGS = -save-temps=obj -save-temps=obj -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/. -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/book/.
+  OBJECT_DIR = ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/2-7-TypeConversion.dir
+  OBJECT_FILE_DIR = ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/2-7-TypeConversion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-7-TypeConversion
+
+
+#############################################
+# Link the executable ChapterTwoTypeOperatorsAndExpressions/book/2-7-TypeConversion
+
+build ChapterTwoTypeOperatorsAndExpressions/book/2-7-TypeConversion: C_EXECUTABLE_LINKER__2-7-TypeConversion_Debug ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/2-7-TypeConversion.dir/2-7-TypeConversion.c.o
+  FLAGS = -save-temps=obj -save-temps=obj -g
+  OBJECT_DIR = ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/2-7-TypeConversion.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ChapterTwoTypeOperatorsAndExpressions/book/2-7-TypeConversion
+  TARGET_PDB = 2-7-TypeConversion.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ChapterTwoTypeOperatorsAndExpressions/book && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ChapterTwoTypeOperatorsAndExpressions/book/edit_cache: phony ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ChapterTwoTypeOperatorsAndExpressions/book && /usr/bin/cmake --regenerate-during-build -S/home/AaronLi/C_Workspace -B/home/AaronLi/C_Workspace/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ChapterTwoTypeOperatorsAndExpressions/book/rebuild_cache: phony ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/AaronLi/C_Workspace/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build ExpertCProgramming/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ExpertCProgramming && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ExpertCProgramming/edit_cache: phony ExpertCProgramming/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ExpertCProgramming/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ExpertCProgramming && /usr/bin/cmake --regenerate-during-build -S/home/AaronLi/C_Workspace -B/home/AaronLi/C_Workspace/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ExpertCProgramming/rebuild_cache: phony ExpertCProgramming/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/AaronLi/C_Workspace/ExpertCProgramming/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TimeTest
+
+
+#############################################
+# Order-only phony target for TimeTest
+
+build cmake_object_order_depends_target_TimeTest: phony || ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir
+
+build ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir/TimeTest.c.o: C_COMPILER__TimeTest_Debug /home/AaronLi/C_Workspace/ExpertCProgramming/Introduction/TimeTest.c || cmake_object_order_depends_target_TimeTest
+  DEP_FILE = ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir/TimeTest.c.o.d
+  FLAGS = -save-temps=obj -save-temps=obj -save-temps=obj -g -std=gnu99
+  INCLUDES = -I/home/AaronLi/C_Workspace/ExpertCProgramming/. -I/home/AaronLi/C_Workspace/ExpertCProgramming/Introduction/.
+  OBJECT_DIR = ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir
+  OBJECT_FILE_DIR = ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TimeTest
+
+
+#############################################
+# Link the executable ExpertCProgramming/Introduction/TimeTest
+
+build ExpertCProgramming/Introduction/TimeTest: C_EXECUTABLE_LINKER__TimeTest_Debug ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir/TimeTest.c.o
+  FLAGS = -save-temps=obj -save-temps=obj -save-temps=obj -g
+  OBJECT_DIR = ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ExpertCProgramming/Introduction/TimeTest
+  TARGET_PDB = TimeTest.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ExpertCProgramming/Introduction/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ExpertCProgramming/Introduction && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ExpertCProgramming/Introduction/edit_cache: phony ExpertCProgramming/Introduction/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ExpertCProgramming/Introduction/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/AaronLi/C_Workspace/build/ExpertCProgramming/Introduction && /usr/bin/cmake --regenerate-during-build -S/home/AaronLi/C_Workspace -B/home/AaronLi/C_Workspace/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ExpertCProgramming/Introduction/rebuild_cache: phony ExpertCProgramming/Introduction/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build 1-6-GetcharTest: phony ChapterOneIntroduction/exercise/1-6-GetcharTest
+build 1-13-TheWordHistogram: phony ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram
 
-build 2-10-InplaceSwap: phony ChapterOneIntroduction/exercise/2-10-InplaceSwap
+build 1-13-WordHistogram: phony ChapterOneIntroduction/exercise/src/1-13-WordHistogram
+
+build 1-14-FrequencyOfWords: phony ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords
+
+build 1-15-TemperatureConversion: phony ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion
+
+build 1-17-PrintText: phony ChapterOneIntroduction/exercise/src/1-17-PrintText
+
+build 1-18-DeleteSpaces: phony ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces
+
+build 1-6-Array: phony ChapterOneIntroduction/exercise/src/1-6-Array
+
+build 1-6-GetcharTest: phony ChapterOneIntroduction/exercise/src/1-6-GetcharTest
+
+build 1-7-EOFTest: phony ChapterOneIntroduction/exercise/src/1-7-EOFTest
+
+build 2-1-DistinguishUnsignedBetweenSigned: phony ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned
+
+build 2-10-InplaceSwap: phony ChapterOneIntroduction/exercise/src/2-10-InplaceSwap
+
+build 2-3-htoi: phony ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi
+
+build 2-7-TypeConversion: phony ChapterTwoTypeOperatorsAndExpressions/book/2-7-TypeConversion
+
+build TimeTest: phony ExpertCProgramming/Introduction/TimeTest
 
 # =============================================================================
 # Folder targets.
@@ -198,7 +774,7 @@ build 2-10-InplaceSwap: phony ChapterOneIntroduction/exercise/2-10-InplaceSwap
 #############################################
 # Folder: /home/AaronLi/C_Workspace/build
 
-build all: phony ChapterOneIntroduction/all
+build all: phony ChapterOneIntroduction/all ChapterTwoTypeOperatorsAndExpressions/all ExpertCProgramming/all
 
 # =============================================================================
 
@@ -212,7 +788,49 @@ build ChapterOneIntroduction/all: phony ChapterOneIntroduction/exercise/all
 #############################################
 # Folder: /home/AaronLi/C_Workspace/build/ChapterOneIntroduction/exercise
 
-build ChapterOneIntroduction/exercise/all: phony ChapterOneIntroduction/exercise/2-10-InplaceSwap ChapterOneIntroduction/exercise/1-6-GetcharTest
+build ChapterOneIntroduction/exercise/all: phony ChapterOneIntroduction/exercise/src/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/AaronLi/C_Workspace/build/ChapterOneIntroduction/exercise/src
+
+build ChapterOneIntroduction/exercise/src/all: phony ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram ChapterOneIntroduction/exercise/src/1-13-WordHistogram ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion ChapterOneIntroduction/exercise/src/1-17-PrintText ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces ChapterOneIntroduction/exercise/src/1-6-Array ChapterOneIntroduction/exercise/src/1-6-GetcharTest ChapterOneIntroduction/exercise/src/1-7-EOFTest ChapterOneIntroduction/exercise/src/2-10-InplaceSwap
+
+# =============================================================================
+
+#############################################
+# Folder: /home/AaronLi/C_Workspace/build/ChapterTwoTypeOperatorsAndExpressions
+
+build ChapterTwoTypeOperatorsAndExpressions/all: phony ChapterTwoTypeOperatorsAndExpressions/exercise/all ChapterTwoTypeOperatorsAndExpressions/book/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/AaronLi/C_Workspace/build/ChapterTwoTypeOperatorsAndExpressions/book
+
+build ChapterTwoTypeOperatorsAndExpressions/book/all: phony ChapterTwoTypeOperatorsAndExpressions/book/2-7-TypeConversion
+
+# =============================================================================
+
+#############################################
+# Folder: /home/AaronLi/C_Workspace/build/ChapterTwoTypeOperatorsAndExpressions/exercise
+
+build ChapterTwoTypeOperatorsAndExpressions/exercise/all: phony ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi
+
+# =============================================================================
+
+#############################################
+# Folder: /home/AaronLi/C_Workspace/build/ExpertCProgramming
+
+build ExpertCProgramming/all: phony ExpertCProgramming/Introduction/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/AaronLi/C_Workspace/build/ExpertCProgramming/Introduction
+
+build ExpertCProgramming/Introduction/all: phony ExpertCProgramming/Introduction/TimeTest
 
 # =============================================================================
 # Built-in targets
@@ -221,14 +839,14 @@ build ChapterOneIntroduction/exercise/all: phony ChapterOneIntroduction/exercise
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../ChapterOneIntroduction/CMakeLists.txt ../ChapterOneIntroduction/exercise/CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../ChapterOneIntroduction/CMakeLists.txt ../ChapterOneIntroduction/exercise/CMakeLists.txt ../ChapterOneIntroduction/exercise/src/CMakeLists.txt ../ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt ../ChapterTwoTypeOperatorsAndExpressions/book/CMakeLists.txt ../ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeLists.txt ../ExpertCProgramming/CMakeLists.txt ../ExpertCProgramming/Introduction/CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../ChapterOneIntroduction/CMakeLists.txt ../ChapterOneIntroduction/exercise/CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../ChapterOneIntroduction/CMakeLists.txt ../ChapterOneIntroduction/exercise/CMakeLists.txt ../ChapterOneIntroduction/exercise/src/CMakeLists.txt ../ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt ../ChapterTwoTypeOperatorsAndExpressions/book/CMakeLists.txt ../ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeLists.txt ../ExpertCProgramming/CMakeLists.txt ../ExpertCProgramming/Introduction/CMakeLists.txt /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake: phony
 
 
 #############################################

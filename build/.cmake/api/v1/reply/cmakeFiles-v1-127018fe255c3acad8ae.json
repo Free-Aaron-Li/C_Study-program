@@ -87,6 +87,24 @@
 		},
 		{
 			"path" : "ChapterOneIntroduction/exercise/CMakeLists.txt"
+		},
+		{
+			"path" : "ChapterOneIntroduction/exercise/src/CMakeLists.txt"
+		},
+		{
+			"path" : "ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt"
+		},
+		{
+			"path" : "ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeLists.txt"
+		},
+		{
+			"path" : "ChapterTwoTypeOperatorsAndExpressions/book/CMakeLists.txt"
+		},
+		{
+			"path" : "ExpertCProgramming/CMakeLists.txt"
+		},
+		{
+			"path" : "ExpertCProgramming/Introduction/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

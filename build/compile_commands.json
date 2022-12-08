@@ -1,12 +1,72 @@
 [
 {
   "directory": "/home/AaronLi/C_Workspace/build",
-  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/CMakeFiles/2-10-InplaceSwap.dir/2-10-InplaceSwap.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/2-10-InplaceSwap.c",
-  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/2-10-InplaceSwap.c"
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir/1-13-TheWordHistogram.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram.c"
 },
 {
   "directory": "/home/AaronLi/C_Workspace/build",
-  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/CMakeFiles/1-6-GetcharTest.dir/1-6-GetcharTest.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/1-6-GetcharTest.c",
-  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/1-6-GetcharTest.c"
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir/1-13-WordHistogram.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-13-WordHistogram.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-13-WordHistogram.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir/1-14-FrequencyOfWords.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir/1-15-TemperatureConversion.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir/1-17-PrintText.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-17-PrintText.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-17-PrintText.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir/1-18-DeleteSpaces.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir/1-6-Array.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-6-Array.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-6-Array.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir/1-6-GetcharTest.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-6-GetcharTest.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-6-GetcharTest.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir/1-7-EOFTest.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-7-EOFTest.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/1-7-EOFTest.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/. -g -std=gnu99 -o ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir/2-10-InplaceSwap.c.o -c /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/2-10-InplaceSwap.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/2-10-InplaceSwap.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/. -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/.  -save-temps=obj -save-temps=obj -g -std=gnu99 -o ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir/2-1-DistinguishUnsignedBetweenSigned.c.o -c /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/. -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/.  -save-temps=obj -save-temps=obj -g -std=gnu99 -o ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir/2-3-htoi.c.o -c /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/. -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/book/.  -save-temps=obj -save-temps=obj -g -std=gnu99 -o ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/2-7-TypeConversion.dir/2-7-TypeConversion.c.o -c /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/book/2-7-TypeConversion.c",
+  "file": "/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/book/2-7-TypeConversion.c"
+},
+{
+  "directory": "/home/AaronLi/C_Workspace/build",
+  "command": "/usr/bin/gcc -I/home/AaronLi/C_Workspace/ExpertCProgramming/. -I/home/AaronLi/C_Workspace/ExpertCProgramming/Introduction/.  -save-temps=obj -save-temps=obj -save-temps=obj -g -std=gnu99 -o ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir/TimeTest.c.o -c /home/AaronLi/C_Workspace/ExpertCProgramming/Introduction/TimeTest.c",
+  "file": "/home/AaronLi/C_Workspace/ExpertCProgramming/Introduction/TimeTest.c"
 }
 ]
