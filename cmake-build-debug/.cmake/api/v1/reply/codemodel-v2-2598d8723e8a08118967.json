@@ -1,0 +1,285 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						5
+					],
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/ChapterOneIntroduction",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-src.ChapterOneIntroduction-Debug-d581326a0f3d9b23455b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/ChapterOneIntroduction"
+				},
+				{
+					"build" : "src/ChapterOneIntroduction/src",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-src.ChapterOneIntroduction.src-Debug-1409d2d3eb765d296620.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/ChapterOneIntroduction/src"
+				},
+				{
+					"build" : "src/ChapterOneIntroduction/src/exercise",
+					"jsonFile" : "directory-src.ChapterOneIntroduction.src.exercise-Debug-05edd28118dfbc37ce97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/ChapterOneIntroduction/src/exercise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10
+					]
+				},
+				{
+					"build" : "src/ChapterTwoTypeOperatorsAndExpressions",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-src.ChapterTwoTypeOperatorsAndExpressions-Debug-306d07f9abb40e0670b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ChapterTwoTypeOperatorsAndExpressions"
+				},
+				{
+					"build" : "src/ChapterTwoTypeOperatorsAndExpressions/src",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-src.ChapterTwoTypeOperatorsAndExpressions.src-Debug-deb3ea1bcbdeedc5cc9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "src/ChapterTwoTypeOperatorsAndExpressions/src"
+				},
+				{
+					"build" : "src/ChapterTwoTypeOperatorsAndExpressions/src/exercise",
+					"jsonFile" : "directory-src.ChapterTwoTypeOperatorsAndExpressions.src.exercise-Debug-0912ff8ad049ad223826.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "src/ChapterTwoTypeOperatorsAndExpressions/src/exercise",
+					"targetIndexes" : 
+					[
+						9,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "ChapterOne",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"name" : "ChapterTwo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "1-13-TheWordHistogram::@b507825cb0946d529b2c",
+					"jsonFile" : "target-1-13-TheWordHistogram-Debug-6a54826829571334e918.json",
+					"name" : "1-13-TheWordHistogram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "1-13-WordHistogram::@b507825cb0946d529b2c",
+					"jsonFile" : "target-1-13-WordHistogram-Debug-90569c0be564f2d1a5c4.json",
+					"name" : "1-13-WordHistogram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "1-14-FrequencyOfWords::@b507825cb0946d529b2c",
+					"jsonFile" : "target-1-14-FrequencyOfWords-Debug-d0ee1fb2a4ed708d1c32.json",
+					"name" : "1-14-FrequencyOfWords",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "1-15-TemperatureConversion::@b507825cb0946d529b2c",
+					"jsonFile" : "target-1-15-TemperatureConversion-Debug-62349a337b70f5f31b1f.json",
+					"name" : "1-15-TemperatureConversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "1-17-PrintText::@b507825cb0946d529b2c",
+					"jsonFile" : "target-1-17-PrintText-Debug-e0b4e7a788b963b055ae.json",
+					"name" : "1-17-PrintText",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "1-18-DeleteSpaces::@b507825cb0946d529b2c",
+					"jsonFile" : "target-1-18-DeleteSpaces-Debug-f7e671ed5cdd0dcfb5d0.json",
+					"name" : "1-18-DeleteSpaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "1-6-Array::@b507825cb0946d529b2c",
+					"jsonFile" : "target-1-6-Array-Debug-65d8e20b966eb30a6cb6.json",
+					"name" : "1-6-Array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "1-6-GetcharTest::@b507825cb0946d529b2c",
+					"jsonFile" : "target-1-6-GetcharTest-Debug-bc17378e51b2c90df4fe.json",
+					"name" : "1-6-GetcharTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "1-7-EOFTest::@b507825cb0946d529b2c",
+					"jsonFile" : "target-1-7-EOFTest-Debug-61bdf0faea2cda032d7e.json",
+					"name" : "1-7-EOFTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "2-1-DistinguishUnsignedBetweenSigned::@7d83cbc6e4271f179019",
+					"jsonFile" : "target-2-1-DistinguishUnsignedBetweenSigned-Debug-31d039100e69dc52317f.json",
+					"name" : "2-1-DistinguishUnsignedBetweenSigned",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "2-10-InplaceSwap::@b507825cb0946d529b2c",
+					"jsonFile" : "target-2-10-InplaceSwap-Debug-a19655a8f01d2494a567.json",
+					"name" : "2-10-InplaceSwap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "2-3-htoi::@7d83cbc6e4271f179019",
+					"jsonFile" : "target-2-3-htoi-Debug-2e01e00cc518b58322f8.json",
+					"name" : "2-3-htoi",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/AaronLi/C_Workspace/cmake-build-debug",
+		"source" : "/home/AaronLi/C_Workspace"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

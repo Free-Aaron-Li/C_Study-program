@@ -1,6 +1,6 @@
 # ninja log v5
 1	38	1668957483874466866	ChapterOneIntroduction/exercise/CMakeFiles/2-10-InplaceSwap.dir/2-10-InplaceSwap.c.o	8f7c26aec297796d
-77	118	1669712517452981162	ExpertCProgramming/Introduction/TimeTest	4cea0981ef1ec9cb
+34	55	1670850388435520306	ExpertCProgramming/Introduction/TimeTest	b8b46a3e79cb3c86
 0	44	1670399531603439049	ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir/2-1-DistinguishUnsignedBetweenSigned.c.o	e3c8b34d9f21367f
 28	47	1668945179079488992	ChapterOneIntroduction/exercise/1-4-ReplacementOfTemperature	45edb78248ccc9f0
 0	27	1668945569359563668	ChapterOneIntroduction/exercise/CMakeFiles/exercises.dir/1-4-ReplacementOfTemperature.c.o	af62250aa4a0f628
@@ -10,17 +10,20 @@
 63	95	1669207848367054062	ChapterOneIntroduction/exercise/1-13-WordHistogram	b71f5332f7e2960a
 42	71	1669794640621435157	ChapterOneIntroduction/exercise/1-6-GetcharTest	23d2003884b0e681
 0	27	1668944376568552687	ChapterOneIntroduction/exercise/CMakeFiles/exercise.dir/1-5-ReplacementOfTemperature.c.o	ce2115b656c93e5a
+32	54	1670855474062445533	src/ChapterOneIntroduction/src/exercise/1-17-PrintText	3da51a73888bdd81
 0	34	1669999714977627472	ChapterOneIntroduction/exercise/src/CMakeFiles/1-16-PrintText.dir/1-16-PrintText.c.o	9fcd35399f47ec93
 26	43	1668945515561074581	ChapterOneIntroduction/exercise/exercise	28ad3fafbb1c1979
 59	94	1670398217571922688	ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces	88519dddc3a42474
 0	26	1668942602742483412	ChapterOneIntroduction/exercise/CMakeFiles/exercise-1-5-ReplacementOfTemperature.dir/1-5-ReplacementOfTemperature.c.o	5ae01880355e4f40
-2	52	1670843696715985451	build.ninja	77e4ebbfdabd9f6
+2	52	1670856378508800814	build.ninja	77e4ebbfdabd9f6
+34	59	1670854092747754587	src/ExpertCProgramming/Introduction/TimeTest	abb545f0bd785468
+0	30	1670848839362817917	ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir/test1.c.o	7b455a508e89e475
 26	45	1668942602762483621	ChapterOneIntroduction/exercise/exercise-1-5-ReplacementOfTemperature	4041275e421eeeb
 0	63	1669207848335053671	ChapterOneIntroduction/exercise/CMakeFiles/1-13-WordHistogram.dir/1-13-WordHistogram.c.o	33498487b0f2671c
 0	42	1669794640589434581	ChapterOneIntroduction/exercise/CMakeFiles/1-6-GetcharTest.dir/1-6-GetcharTest.c.o	6e2a20263b8e00e3
 0	30	1668944150829266108	ChapterOneIntroduction/exercise/CMakeFiles/exercise-1-4-ReplacementOfTemperature.dir/2-10-InplaceSwap.c.o	3cc93681f19d59a9
 38	65	1669038066486595160	ChapterOneIntroduction/exercise/1-7-EOFTest	a70f1636e4da7f15
-0	77	1669712517412980487	ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir/TimeTest.c.o	a70647f7a7dc1674
+0	34	1670850388415520017	ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir/TimeTest.c.o	88371f19bc11ec4
 0	39	1669712985889227736	ChapterOneIntroduction/exercise/CMakeFiles/1-6-Array.dir/1-6-Array.c.o	d456fd6fb370e713
 34	58	1669999715001627873	ChapterOneIntroduction/exercise/src/1-16-PrintText	664deeb0a04507e3
 0	28	1668945179059488727	ChapterOneIntroduction/exercise/CMakeFiles/1-4-ReplacementOfTemperature.dir/1-4-ReplacementOfTemperature.c.o	3c9243666507b1bf
@@ -35,8 +38,10 @@
 0	26	1668944171941580440	ChapterOneIntroduction/exercise/CMakeFiles/exercise.dir/2-10-InplaceSwap.c.o	8e904a40b5fdf6bb
 53	84	1670036587776488388	ChapterOneIntroduction/exercise/src/1-17-PrintText	29368a2e24a5bcc3
 39	67	1669712985917228240	ChapterOneIntroduction/exercise/1-6-Array	9d2e186269cce629
+0	34	1670854092719754167	src/ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir/TimeTest.c.o	11e7ff8869de87ed
 50	80	1670760988887047219	ChapterOneIntroduction/exercise/src/1-6-Array	f48e56beae12a794
 25	47	1668943837804364809	C_Workspace-1-5-ReplacementOfTemperature	99feb67ef12b9c0f
+0	32	1670855474042445210	src/ChapterOneIntroduction/src/exercise/CMakeFiles/1-17-PrintText.dir/1-17-PrintText.c.o	bbd047691fce148
 0	25	1668945515545073818	ChapterOneIntroduction/exercise/CMakeFiles/exercise.dir/1-4-ReplacementOfTemperature.c.o	8086fb086ce9d91a
 44	72	1670399531631438937	ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned	47170f6f899d3bbc
 38	64	1668957483898467582	ChapterOneIntroduction/exercise/2-10-InplaceSwap	e5b1a1a6abe9d25

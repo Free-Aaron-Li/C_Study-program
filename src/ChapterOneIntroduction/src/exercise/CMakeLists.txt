@@ -1,0 +1,11 @@
+
+add_executable(1-6-Array 1-6-Array.c)
+add_executable(1-6-GetcharTest 1-6-GetcharTest.c)
+add_executable(1-7-EOFTest 1-7-EOFTest.c)
+add_executable(1-13-WordHistogram 1-13-WordHistogram.c)
+add_executable(1-13-TheWordHistogram 1-13-TheWordHistogram.c)
+add_executable(1-14-FrequencyOfWords 1-14-FrequencyOfWords.c)
+add_executable(1-15-TemperatureConversion 1-15-TemperatureConversion.c)
+add_executable(1-17-PrintText 1-17-PrintText.c)
+add_executable(1-18-DeleteSpaces 1-18-DeleteSpaces.c)
+add_executable(2-10-InplaceSwap 2-10-InplaceSwap.c)

@@ -1,0 +1,85 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "exercise",
+					"jsonFile" : "directory-exercise-Debug-b821f501c731894b1e0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exercise",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ChapterTwo",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "2-1-DistinguishUnsignedBetweenSigned::@edd2ca50a9f312812b89",
+					"jsonFile" : "target-2-1-DistinguishUnsignedBetweenSigned-Debug-ad4a631a96f16187fa0f.json",
+					"name" : "2-1-DistinguishUnsignedBetweenSigned",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "2-3-htoi::@edd2ca50a9f312812b89",
+					"jsonFile" : "target-2-3-htoi-Debug-b7bb5894a06b5dec748f.json",
+					"name" : "2-3-htoi",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/AaronLi/C_Workspace/src/ChapterTwoTypeOperatorsAndExpressions/cmake-build-debug",
+		"source" : "/home/AaronLi/C_Workspace/src/ChapterTwoTypeOperatorsAndExpressions"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
