@@ -139,8 +139,6 @@ build ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir/1
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir
   OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir/
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram.pdb
 
 
 # =============================================================================
@@ -155,9 +153,8 @@ build ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram: C_EXECUTABLE_LI
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-TheWordHistogram.dir/
   TARGET_FILE = ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-13-TheWordHistogram.pdb
+  TARGET_PDB = 1-13-TheWordHistogram.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1-13-WordHistogram
@@ -174,8 +171,6 @@ build ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir/1-13
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir
   OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir/
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-13-WordHistogram.pdb
 
 
 # =============================================================================
@@ -190,9 +185,8 @@ build ChapterOneIntroduction/exercise/src/1-13-WordHistogram: C_EXECUTABLE_LINKE
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-13-WordHistogram.dir/
   TARGET_FILE = ChapterOneIntroduction/exercise/src/1-13-WordHistogram
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-13-WordHistogram.pdb
+  TARGET_PDB = 1-13-WordHistogram.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1-14-FrequencyOfWords
@@ -209,8 +203,6 @@ build ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir/1
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir
   OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir/
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords.pdb
 
 
 # =============================================================================
@@ -225,9 +217,8 @@ build ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords: C_EXECUTABLE_LI
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-14-FrequencyOfWords.dir/
   TARGET_FILE = ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-14-FrequencyOfWords.pdb
+  TARGET_PDB = 1-14-FrequencyOfWords.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1-15-TemperatureConversion
@@ -244,8 +235,6 @@ build ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir
   OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir/
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion.pdb
 
 
 # =============================================================================
@@ -260,9 +249,8 @@ build ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion: C_EXECUTAB
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-15-TemperatureConversion.dir/
   TARGET_FILE = ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-15-TemperatureConversion.pdb
+  TARGET_PDB = 1-15-TemperatureConversion.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1-17-PrintText
@@ -279,8 +267,6 @@ build ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir/1-17-Pri
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
   OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir/
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-17-PrintText.pdb
 
 
 # =============================================================================
@@ -295,9 +281,8 @@ build ChapterOneIntroduction/exercise/src/1-17-PrintText: C_EXECUTABLE_LINKER__1
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-17-PrintText.dir/
   TARGET_FILE = ChapterOneIntroduction/exercise/src/1-17-PrintText
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-17-PrintText.pdb
+  TARGET_PDB = 1-17-PrintText.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1-18-DeleteSpaces
@@ -314,8 +299,6 @@ build ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir/1-18-
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
   OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir/
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces.pdb
 
 
 # =============================================================================
@@ -330,9 +313,8 @@ build ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces: C_EXECUTABLE_LINKER
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-18-DeleteSpaces.dir/
   TARGET_FILE = ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-18-DeleteSpaces.pdb
+  TARGET_PDB = 1-18-DeleteSpaces.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1-6-Array
@@ -349,8 +331,6 @@ build ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir/1-6-Array.c.o
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir
   OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir/
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-6-Array.pdb
 
 
 # =============================================================================
@@ -365,9 +345,8 @@ build ChapterOneIntroduction/exercise/src/1-6-Array: C_EXECUTABLE_LINKER__1-6-Ar
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-Array.dir/
   TARGET_FILE = ChapterOneIntroduction/exercise/src/1-6-Array
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-6-Array.pdb
+  TARGET_PDB = 1-6-Array.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1-6-GetcharTest
@@ -384,8 +363,6 @@ build ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir/1-6-Get
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir
   OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir/
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-6-GetcharTest.pdb
 
 
 # =============================================================================
@@ -400,9 +377,8 @@ build ChapterOneIntroduction/exercise/src/1-6-GetcharTest: C_EXECUTABLE_LINKER__
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-6-GetcharTest.dir/
   TARGET_FILE = ChapterOneIntroduction/exercise/src/1-6-GetcharTest
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-6-GetcharTest.pdb
+  TARGET_PDB = 1-6-GetcharTest.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1-7-EOFTest
@@ -419,8 +395,6 @@ build ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir/1-7-EOFTest
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir
   OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir/
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-7-EOFTest.pdb
 
 
 # =============================================================================
@@ -435,9 +409,8 @@ build ChapterOneIntroduction/exercise/src/1-7-EOFTest: C_EXECUTABLE_LINKER__1-7-
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/1-7-EOFTest.dir/
   TARGET_FILE = ChapterOneIntroduction/exercise/src/1-7-EOFTest
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/1-7-EOFTest.pdb
+  TARGET_PDB = 1-7-EOFTest.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-10-InplaceSwap
@@ -454,8 +427,6 @@ build ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir/2-10-I
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/. -I/home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/.
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir
   OBJECT_FILE_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir/
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/2-10-InplaceSwap.pdb
 
 
 # =============================================================================
@@ -470,9 +441,8 @@ build ChapterOneIntroduction/exercise/src/2-10-InplaceSwap: C_EXECUTABLE_LINKER_
   OBJECT_DIR = ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterOneIntroduction/exercise/src/CMakeFiles/2-10-InplaceSwap.dir/
   TARGET_FILE = ChapterOneIntroduction/exercise/src/2-10-InplaceSwap
-  TARGET_PDB = ChapterOneIntroduction/exercise/src/2-10-InplaceSwap.pdb
+  TARGET_PDB = 2-10-InplaceSwap.dbg
 
 
 #############################################
@@ -545,8 +515,6 @@ build ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishU
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/. -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/.
   OBJECT_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir
   OBJECT_FILE_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir
-  TARGET_COMPILE_PDB = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir/
-  TARGET_PDB = ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned.pdb
 
 
 # =============================================================================
@@ -561,9 +529,8 @@ build ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetw
   OBJECT_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir/
   TARGET_FILE = ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned
-  TARGET_PDB = ChapterTwoTypeOperatorsAndExpressions/exercise/2-1-DistinguishUnsignedBetweenSigned.pdb
+  TARGET_PDB = 2-1-DistinguishUnsignedBetweenSigned.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-3-htoi
@@ -580,8 +547,6 @@ build ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir/2-3
   INCLUDES = -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/. -I/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/.
   OBJECT_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir
   OBJECT_FILE_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir
-  TARGET_COMPILE_PDB = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir/
-  TARGET_PDB = ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi.pdb
 
 
 # =============================================================================
@@ -596,9 +561,8 @@ build ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi: C_EXECUTABLE_LINK
   OBJECT_DIR = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir/
   TARGET_FILE = ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi
-  TARGET_PDB = ChapterTwoTypeOperatorsAndExpressions/exercise/2-3-htoi.pdb
+  TARGET_PDB = 2-3-htoi.dbg
 
 
 #############################################
@@ -671,8 +635,6 @@ build ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir/TimeTest.c.o: C_CO
   INCLUDES = -I/home/AaronLi/C_Workspace/ExpertCProgramming/. -I/home/AaronLi/C_Workspace/ExpertCProgramming/Introduction/.
   OBJECT_DIR = ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir
   OBJECT_FILE_DIR = ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir
-  TARGET_COMPILE_PDB = ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir/
-  TARGET_PDB = ExpertCProgramming/Introduction/TimeTest.pdb
 
 
 # =============================================================================
@@ -687,9 +649,8 @@ build ExpertCProgramming/Introduction/TimeTest: C_EXECUTABLE_LINKER__TimeTest_De
   OBJECT_DIR = ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir/
   TARGET_FILE = ExpertCProgramming/Introduction/TimeTest
-  TARGET_PDB = ExpertCProgramming/Introduction/TimeTest.pdb
+  TARGET_PDB = TimeTest.dbg
 
 
 #############################################
@@ -809,14 +770,14 @@ build ExpertCProgramming/Introduction/all: phony ExpertCProgramming/Introduction
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/AaronLi/C_Workspace/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeLists.txt /home/AaronLi/C_Workspace/ExpertCProgramming/CMakeLists.txt /home/AaronLi/C_Workspace/ExpertCProgramming/Introduction/CMakeLists.txt /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompilerABI.c /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystem.cmake.in /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/AaronLi/C_Workspace/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeLists.txt /home/AaronLi/C_Workspace/ExpertCProgramming/CMakeLists.txt /home/AaronLi/C_Workspace/ExpertCProgramming/Introduction/CMakeLists.txt /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/AaronLi/C_Workspace/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeLists.txt /home/AaronLi/C_Workspace/ExpertCProgramming/CMakeLists.txt /home/AaronLi/C_Workspace/ExpertCProgramming/Introduction/CMakeLists.txt /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompilerABI.c /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystem.cmake.in /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /home/AaronLi/C_Workspace/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterOneIntroduction/exercise/src/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/CMakeLists.txt /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeLists.txt /home/AaronLi/C_Workspace/ExpertCProgramming/CMakeLists.txt /home/AaronLi/C_Workspace/ExpertCProgramming/Introduction/CMakeLists.txt /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux.cmake /home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################
