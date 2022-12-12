@@ -10,7 +10,7 @@
 					[
 						1,
 						4,
-						7
+						6
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -78,8 +78,7 @@
 					"build" : "ChapterTwoTypeOperatorsAndExpressions",
 					"childIndexes" : 
 					[
-						5,
-						6
+						5
 					],
 					"jsonFile" : "directory-ChapterTwoTypeOperatorsAndExpressions-Debug-97f52abb51c95affecc2.json",
 					"minimumCMakeVersion" : 
@@ -107,25 +106,10 @@
 					]
 				},
 				{
-					"build" : "ChapterTwoTypeOperatorsAndExpressions/book",
-					"jsonFile" : "directory-ChapterTwoTypeOperatorsAndExpressions.book-Debug-48cb7365baf31af51d2e.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.22"
-					},
-					"parentIndex" : 4,
-					"projectIndex" : 0,
-					"source" : "ChapterTwoTypeOperatorsAndExpressions/book",
-					"targetIndexes" : 
-					[
-						12
-					]
-				},
-				{
 					"build" : "ExpertCProgramming",
 					"childIndexes" : 
 					[
-						8
+						7
 					],
 					"jsonFile" : "directory-ExpertCProgramming-Debug-5f57ee1dbea787990c78.json",
 					"minimumCMakeVersion" : 
@@ -143,12 +127,12 @@
 					{
 						"string" : "3.22"
 					},
-					"parentIndex" : 7,
+					"parentIndex" : 6,
 					"projectIndex" : 0,
 					"source" : "ExpertCProgramming/Introduction",
 					"targetIndexes" : 
 					[
-						13
+						12
 					]
 				}
 			],
@@ -165,8 +149,7 @@
 						4,
 						5,
 						6,
-						7,
-						8
+						7
 					],
 					"name" : "C_Workspace",
 					"targetIndexes" : 
@@ -183,8 +166,7 @@
 						9,
 						10,
 						11,
-						12,
-						13
+						12
 					]
 				}
 			],
@@ -275,14 +257,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 6,
-					"id" : "2-7-TypeConversion::@adae392849d1d6002bc8",
-					"jsonFile" : "target-2-7-TypeConversion-Debug-dc4d2eead5aa9df86db8.json",
-					"name" : "2-7-TypeConversion",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 7,
 					"id" : "TimeTest::@1e545507729a95a41c21",
 					"jsonFile" : "target-TimeTest-Debug-a90a62f854b60762da8f.json",
 					"name" : "TimeTest",

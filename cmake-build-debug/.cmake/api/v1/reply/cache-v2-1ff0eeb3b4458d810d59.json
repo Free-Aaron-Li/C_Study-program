@@ -298,18 +298,6 @@
 			"value" : "CMAKE_DLLTOOL-NOTFOUND"
 		},
 		{
-			"name" : "CMAKE_EDIT_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to cache edit program executable."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/cmake/linux/bin/ccmake"
-		},
-		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
 			"properties" : 
 			[
@@ -551,7 +539,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/usr/bin/ninja"
+			"value" : "/home/AaronLi/Software/JetBrains/CLion/clion-2022.1.3/bin/ninja/linux/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -659,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "9"
+			"value" : "8"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",

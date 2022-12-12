@@ -1,4 +1,4 @@
-# Install script for directory: /home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions
+# Install script for directory: /home/AaronLi/C_Workspace/GraphicsGame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/exercise/cmake_install.cmake")
+  include("/home/AaronLi/C_Workspace/cmake-build-debug/GraphicsGame/Game1/cmake_install.cmake")
 endif()
 

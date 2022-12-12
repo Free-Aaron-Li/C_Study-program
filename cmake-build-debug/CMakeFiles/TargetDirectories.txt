@@ -22,9 +22,6 @@
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/2-3-htoi.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/edit_cache.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/exercise/CMakeFiles/rebuild_cache.dir
-/home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/2-7-TypeConversion.dir
-/home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/edit_cache.dir
-/home/AaronLi/C_Workspace/cmake-build-debug/ChapterTwoTypeOperatorsAndExpressions/book/CMakeFiles/rebuild_cache.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ExpertCProgramming/CMakeFiles/edit_cache.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ExpertCProgramming/CMakeFiles/rebuild_cache.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/ExpertCProgramming/Introduction/CMakeFiles/TimeTest.dir
