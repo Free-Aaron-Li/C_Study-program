@@ -1,3 +1,13 @@
 # ninja log v5
-0	25	1670855096808238483	exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir/2-1-DistinguishUnsignedBetweenSigned.c.o	ad28946caaec9a7c
 25	47	1670855096832238886	exercise/2-1-DistinguishUnsignedBetweenSigned	c1e8a0a0474ed790
+0	25	1670855096808238483	exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir/2-1-DistinguishUnsignedBetweenSigned.c.o	ad28946caaec9a7c
+0	69	1670901664453613211	src/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir/2-1-DistinguishUnsignedBetweenSigned.c.o	6b735f393ff1b3ab
+70	113	1670901664497613929	src/exercise/2-1-DistinguishUnsignedBetweenSigned	24698809f8045c8d
+0	43	1670901673705763846	src/exercise/CMakeFiles/2-4-Squeeze.dir/2-4-Squeeze.c.o	2edb914e43e84709
+43	75	1670901673737764365	src/exercise/2-4-Squeeze	74431973ea78faae
+0	31	1670901717138458580	src/exercise/CMakeFiles/2-4-Squeeze.dir/2-4-Squeeze.c.o	2edb914e43e84709
+31	69	1670901717178459210	src/exercise/2-4-Squeeze	74431973ea78faae
+0	43	1670901808807863596	src/exercise/CMakeFiles/2-4-Squeeze.dir/2-4-Squeeze.c.o	2edb914e43e84709
+43	73	1670901808839864073	src/exercise/2-4-Squeeze	74431973ea78faae
+0	32	1670901834908249948	src/exercise/CMakeFiles/2-4-Squeeze.dir/2-4-Squeeze.c.o	2edb914e43e84709
+32	64	1670901834940250418	src/exercise/2-4-Squeeze	74431973ea78faae

@@ -19,19 +19,35 @@
 					"source" : "."
 				},
 				{
-					"build" : "exercise",
-					"jsonFile" : "directory-exercise-Debug-b821f501c731894b1e0f.json",
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "exercise",
+					"source" : "src"
+				},
+				{
+					"build" : "src/exercise",
+					"jsonFile" : "directory-src.exercise-Debug-6499c833592eda20fca2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/exercise",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -42,30 +58,39 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "ChapterTwo",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 1,
-					"id" : "2-1-DistinguishUnsignedBetweenSigned::@edd2ca50a9f312812b89",
-					"jsonFile" : "target-2-1-DistinguishUnsignedBetweenSigned-Debug-ad4a631a96f16187fa0f.json",
+					"directoryIndex" : 2,
+					"id" : "2-1-DistinguishUnsignedBetweenSigned::@cc5c82cb449ff75bc4e7",
+					"jsonFile" : "target-2-1-DistinguishUnsignedBetweenSigned-Debug-1d8483185d2b7e12fcd5.json",
 					"name" : "2-1-DistinguishUnsignedBetweenSigned",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 1,
-					"id" : "2-3-htoi::@edd2ca50a9f312812b89",
-					"jsonFile" : "target-2-3-htoi-Debug-b7bb5894a06b5dec748f.json",
+					"directoryIndex" : 2,
+					"id" : "2-3-htoi::@cc5c82cb449ff75bc4e7",
+					"jsonFile" : "target-2-3-htoi-Debug-d895de5608d826d31256.json",
 					"name" : "2-3-htoi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "2-4-Squeeze::@cc5c82cb449ff75bc4e7",
+					"jsonFile" : "target-2-4-Squeeze-Debug-4dcc367165e994218157.json",
+					"name" : "2-4-Squeeze",
 					"projectIndex" : 0
 				}
 			]

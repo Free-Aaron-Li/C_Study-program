@@ -24,5 +24,6 @@
 /home/AaronLi/C_Workspace/cmake-build-debug/src/ChapterTwoTypeOperatorsAndExpressions/src/CMakeFiles/rebuild_cache.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-1-DistinguishUnsignedBetweenSigned.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi.dir
+/home/AaronLi/C_Workspace/cmake-build-debug/src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-4-Squeeze.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/edit_cache.dir
 /home/AaronLi/C_Workspace/cmake-build-debug/src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/rebuild_cache.dir

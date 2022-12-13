@@ -46,7 +46,7 @@
 						"string" : "3.22"
 					},
 					"parentIndex" : 1,
-					"projectIndex" : 0,
+					"projectIndex" : 1,
 					"source" : "src/ChapterOneIntroduction"
 				},
 				{
@@ -61,7 +61,7 @@
 						"string" : "3.22"
 					},
 					"parentIndex" : 2,
-					"projectIndex" : 0,
+					"projectIndex" : 1,
 					"source" : "src/ChapterOneIntroduction/src"
 				},
 				{
@@ -72,7 +72,7 @@
 						"string" : "3.22"
 					},
 					"parentIndex" : 3,
-					"projectIndex" : 0,
+					"projectIndex" : 1,
 					"source" : "src/ChapterOneIntroduction/src/exercise",
 					"targetIndexes" : 
 					[
@@ -100,7 +100,7 @@
 						"string" : "3.22"
 					},
 					"parentIndex" : 1,
-					"projectIndex" : 1,
+					"projectIndex" : 2,
 					"source" : "src/ChapterTwoTypeOperatorsAndExpressions"
 				},
 				{
@@ -115,7 +115,7 @@
 						"string" : "3.22"
 					},
 					"parentIndex" : 5,
-					"projectIndex" : 1,
+					"projectIndex" : 2,
 					"source" : "src/ChapterTwoTypeOperatorsAndExpressions/src"
 				},
 				{
@@ -126,12 +126,13 @@
 						"string" : "3.22"
 					},
 					"parentIndex" : 6,
-					"projectIndex" : 1,
+					"projectIndex" : 2,
 					"source" : "src/ChapterTwoTypeOperatorsAndExpressions/src/exercise",
 					"targetIndexes" : 
 					[
 						9,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -141,17 +142,25 @@
 				{
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"directoryIndexes" : 
 					[
 						0,
-						1,
+						1
+					],
+					"name" : "C_Workspace"
+				},
+				{
+					"directoryIndexes" : 
+					[
 						2,
 						3,
 						4
 					],
 					"name" : "ChapterOne",
+					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
 						0,
@@ -178,7 +187,8 @@
 					"targetIndexes" : 
 					[
 						9,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -189,84 +199,91 @@
 					"id" : "1-13-TheWordHistogram::@b507825cb0946d529b2c",
 					"jsonFile" : "target-1-13-TheWordHistogram-Debug-6a54826829571334e918.json",
 					"name" : "1-13-TheWordHistogram",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "1-13-WordHistogram::@b507825cb0946d529b2c",
 					"jsonFile" : "target-1-13-WordHistogram-Debug-90569c0be564f2d1a5c4.json",
 					"name" : "1-13-WordHistogram",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "1-14-FrequencyOfWords::@b507825cb0946d529b2c",
 					"jsonFile" : "target-1-14-FrequencyOfWords-Debug-d0ee1fb2a4ed708d1c32.json",
 					"name" : "1-14-FrequencyOfWords",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "1-15-TemperatureConversion::@b507825cb0946d529b2c",
 					"jsonFile" : "target-1-15-TemperatureConversion-Debug-62349a337b70f5f31b1f.json",
 					"name" : "1-15-TemperatureConversion",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "1-17-PrintText::@b507825cb0946d529b2c",
 					"jsonFile" : "target-1-17-PrintText-Debug-e0b4e7a788b963b055ae.json",
 					"name" : "1-17-PrintText",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "1-18-DeleteSpaces::@b507825cb0946d529b2c",
 					"jsonFile" : "target-1-18-DeleteSpaces-Debug-f7e671ed5cdd0dcfb5d0.json",
 					"name" : "1-18-DeleteSpaces",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "1-6-Array::@b507825cb0946d529b2c",
 					"jsonFile" : "target-1-6-Array-Debug-65d8e20b966eb30a6cb6.json",
 					"name" : "1-6-Array",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "1-6-GetcharTest::@b507825cb0946d529b2c",
 					"jsonFile" : "target-1-6-GetcharTest-Debug-bc17378e51b2c90df4fe.json",
 					"name" : "1-6-GetcharTest",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "1-7-EOFTest::@b507825cb0946d529b2c",
 					"jsonFile" : "target-1-7-EOFTest-Debug-61bdf0faea2cda032d7e.json",
 					"name" : "1-7-EOFTest",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "2-1-DistinguishUnsignedBetweenSigned::@7d83cbc6e4271f179019",
 					"jsonFile" : "target-2-1-DistinguishUnsignedBetweenSigned-Debug-31d039100e69dc52317f.json",
 					"name" : "2-1-DistinguishUnsignedBetweenSigned",
-					"projectIndex" : 1
+					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "2-10-InplaceSwap::@b507825cb0946d529b2c",
 					"jsonFile" : "target-2-10-InplaceSwap-Debug-a19655a8f01d2494a567.json",
 					"name" : "2-10-InplaceSwap",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "2-3-htoi::@7d83cbc6e4271f179019",
-					"jsonFile" : "target-2-3-htoi-Debug-2e01e00cc518b58322f8.json",
+					"jsonFile" : "target-2-3-htoi-Debug-1db88206427303dcb2ad.json",
 					"name" : "2-3-htoi",
-					"projectIndex" : 1
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "2-4-Squeeze::@7d83cbc6e4271f179019",
+					"jsonFile" : "target-2-4-Squeeze-Debug-03dab5530bc635ebc45b.json",
+					"name" : "2-4-Squeeze",
+					"projectIndex" : 2
 				}
 			]
 		}

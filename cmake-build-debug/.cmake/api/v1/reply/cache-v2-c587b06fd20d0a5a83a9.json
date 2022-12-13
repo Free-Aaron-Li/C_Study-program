@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "ChapterOne"
+			"value" : "C_Workspace"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1183,7 +1183,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/AaronLi/C_Workspace/cmake-build-debug/src/ChapterTwoTypeOperatorsAndExpressions"
+			"value" : "/home/AaronLi/C_Workspace/cmake-build-debug"
 		},
 		{
 			"name" : "C_IS_TOP_LEVEL",
@@ -1195,7 +1195,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "C_SOURCE_DIR",
@@ -1207,7 +1207,43 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/AaronLi/C_Workspace/src/ChapterTwoTypeOperatorsAndExpressions"
+			"value" : "/home/AaronLi/C_Workspace"
+		},
+		{
+			"name" : "C_Works_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/AaronLi/C_Workspace/cmake-build-debug"
+		},
+		{
+			"name" : "C_Works_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "C_Works_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/AaronLi/C_Workspace"
 		},
 		{
 			"name" : "C_Workspace_BINARY_DIR",
@@ -1219,7 +1255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/AaronLi/C_Workspace/cmake-build-debug/src/ChapterOneIntroduction"
+			"value" : "/home/AaronLi/C_Workspace/cmake-build-debug"
 		},
 		{
 			"name" : "C_Workspace_IS_TOP_LEVEL",
@@ -1231,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "C_Workspace_SOURCE_DIR",
@@ -1243,7 +1279,43 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/AaronLi/C_Workspace/src/ChapterOneIntroduction"
+			"value" : "/home/AaronLi/C_Workspace"
+		},
+		{
+			"name" : "C__BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/AaronLi/C_Workspace/cmake-build-debug"
+		},
+		{
+			"name" : "C__IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "C__SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/AaronLi/C_Workspace"
 		},
 		{
 			"name" : "Cha_BINARY_DIR",

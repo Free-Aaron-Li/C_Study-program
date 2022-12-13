@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(ChapterOne C CXX)
+project(C_Workspace C CXX)
 
 set(CMAKE_C_STANDARD 99)
 

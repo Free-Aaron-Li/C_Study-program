@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: ChapterOne
+# Project: C_Workspace
 # Configurations: Debug
 # =============================================================================
 
@@ -586,8 +586,8 @@ build src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-1-DistinguishUnsi
 
 build cmake_object_order_depends_target_2-3-htoi: phony || src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi.dir
 
-build src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi.dir/2-3-htoi.c.o: C_COMPILER__2-3-htoi_Debug /home/AaronLi/C_Workspace/src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-3-htoi.c || cmake_object_order_depends_target_2-3-htoi
-  DEP_FILE = src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi.dir/2-3-htoi.c.o.d
+build src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi.dir/2-3-Htoi.c.o: C_COMPILER__2-3-htoi_Debug /home/AaronLi/C_Workspace/src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-3-Htoi.c || cmake_object_order_depends_target_2-3-htoi
+  DEP_FILE = src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi.dir/2-3-Htoi.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu99
   OBJECT_DIR = src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi.dir
   OBJECT_FILE_DIR = src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi.dir
@@ -600,13 +600,44 @@ build src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi
 #############################################
 # Link the executable src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-3-htoi
 
-build src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-3-htoi: C_EXECUTABLE_LINKER__2-3-htoi_Debug src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi.dir/2-3-htoi.c.o
+build src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-3-htoi: C_EXECUTABLE_LINKER__2-3-htoi_Debug src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi.dir/2-3-Htoi.c.o
   FLAGS = -g
   OBJECT_DIR = src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-3-htoi.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-3-htoi
   TARGET_PDB = 2-3-htoi.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-4-Squeeze
+
+
+#############################################
+# Order-only phony target for 2-4-Squeeze
+
+build cmake_object_order_depends_target_2-4-Squeeze: phony || src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-4-Squeeze.dir
+
+build src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-4-Squeeze.dir/2-4-Squeeze.c.o: C_COMPILER__2-4-Squeeze_Debug /home/AaronLi/C_Workspace/src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-4-Squeeze.c || cmake_object_order_depends_target_2-4-Squeeze
+  DEP_FILE = src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-4-Squeeze.dir/2-4-Squeeze.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu99
+  OBJECT_DIR = src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-4-Squeeze.dir
+  OBJECT_FILE_DIR = src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-4-Squeeze.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-4-Squeeze
+
+
+#############################################
+# Link the executable src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-4-Squeeze
+
+build src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-4-Squeeze: C_EXECUTABLE_LINKER__2-4-Squeeze_Debug src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-4-Squeeze.dir/2-4-Squeeze.c.o
+  FLAGS = -g
+  OBJECT_DIR = src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/CMakeFiles/2-4-Squeeze.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-4-Squeeze
+  TARGET_PDB = 2-4-Squeeze.dbg
 
 
 #############################################
@@ -657,6 +688,8 @@ build 2-1-DistinguishUnsignedBetweenSigned: phony src/ChapterTwoTypeOperatorsAnd
 build 2-10-InplaceSwap: phony src/ChapterOneIntroduction/src/exercise/2-10-InplaceSwap
 
 build 2-3-htoi: phony src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-3-htoi
+
+build 2-4-Squeeze: phony src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-4-Squeeze
 
 # =============================================================================
 # Folder targets.
@@ -715,7 +748,7 @@ build src/ChapterTwoTypeOperatorsAndExpressions/src/all: phony src/ChapterTwoTyp
 #############################################
 # Folder: /home/AaronLi/C_Workspace/cmake-build-debug/src/ChapterTwoTypeOperatorsAndExpressions/src/exercise
 
-build src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/all: phony src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-1-DistinguishUnsignedBetweenSigned src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-3-htoi
+build src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/all: phony src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-1-DistinguishUnsignedBetweenSigned src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-3-htoi src/ChapterTwoTypeOperatorsAndExpressions/src/exercise/2-4-Squeeze
 
 # =============================================================================
 # Built-in targets
