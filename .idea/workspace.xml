@@ -3,29 +3,39 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="C_Workspace" targetName="2-1-DistinguishUnsignedBetweenSigned" />
-      <config projectName="C_Workspace" targetName="2-10-InplaceSwap" />
       <config projectName="C_Workspace" targetName="1-13-WordHistogram" />
-      <config projectName="C_Workspace" targetName="1-6-GetcharTest" />
+      <config projectName="C_Workspace" targetName="1-17-PrintText" />
       <config projectName="C_Workspace" targetName="1-14-FrequencyOfWords" />
       <config projectName="C_Workspace" targetName="1-7-EOFTest" />
-      <config projectName="C_Workspace" targetName="TimeTest" />
+      <config projectName="C_Workspace" targetName="2-4-Squeeze" />
       <config projectName="C_Workspace" targetName="1-6-Array" />
       <config projectName="C_Workspace" targetName="1-13-TheWordHistogram" />
+      <config projectName="C_Workspace" targetName="1-18-DeleteSpaces" />
+      <config projectName="C_Workspace" targetName="2-1-DistinguishUnsignedBetweenSigned" />
+      <config projectName="C_Workspace" targetName="1-15-TemperatureConversion" />
+      <config projectName="C_Workspace" targetName="2-10-InplaceSwap" />
+      <config projectName="C_Workspace" targetName="1-6-GetcharTest" />
+      <config projectName="C_Workspace" targetName="2-3-htoi" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
-    <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
-    </configurations>
+    <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="959641ef-5876-4639-be00-1b530737bfa6" name="Changes" comment="字符频率直方图" />
+    <list default="true" id="959641ef-5876-4639-be00-1b530737bfa6" name="Changes" comment="更新">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-13T08-08-04-0963.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +51,12 @@
         <option value="CMakeLists.txt" />
       </list>
     </option>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///lib/x86_64-linux-gnu/libc-2.28.so" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,28 +83,34 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/AaronLi/C_Workspace/ChapterTwoTypeOperatorsAndExpressions&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/AaronLi/C_Workspace&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/book" />
       <recent name="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions" />
       <recent name="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/exercise" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ExpertCProgramming/src" />
+      <recent name="$PROJECT_DIR$/src/ChapterTwoTypeOperatorsAndExpressions/src" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/ChapterTwoTypeOperatorsAndExpressions/exercise" />
       <recent name="$PROJECT_DIR$/ChapterOneIntroduction/exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.1-6-Array">
+  <component name="RunManager" selected="CMake Application.1-13-TheWordHistogram">
     <configuration name="1-13-TheWordHistogram" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-13-TheWordHistogram" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-13-TheWordHistogram">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -100,6 +122,21 @@
       </method>
     </configuration>
     <configuration name="1-14-FrequencyOfWords" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-14-FrequencyOfWords" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-14-FrequencyOfWords">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="1-15-TemperatureConversion" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-15-TemperatureConversion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-15-TemperatureConversion">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="1-17-PrintText" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-17-PrintText" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-17-PrintText">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="1-18-DeleteSpaces" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="1-18-DeleteSpaces" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="1-18-DeleteSpaces">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -129,7 +166,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="TimeTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="TimeTest">
+    <configuration name="2-3-htoi" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="2-3-htoi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="2-3-htoi">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2-4-Squeeze" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Workspace" TARGET_NAME="2-4-Squeeze" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Workspace" RUN_TARGET_NAME="2-4-Squeeze">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -138,12 +185,16 @@
       <item itemvalue="CMake Application.1-13-TheWordHistogram" />
       <item itemvalue="CMake Application.1-13-WordHistogram" />
       <item itemvalue="CMake Application.1-14-FrequencyOfWords" />
+      <item itemvalue="CMake Application.1-15-TemperatureConversion" />
+      <item itemvalue="CMake Application.1-17-PrintText" />
+      <item itemvalue="CMake Application.1-18-DeleteSpaces" />
       <item itemvalue="CMake Application.1-6-Array" />
       <item itemvalue="CMake Application.1-6-GetcharTest" />
       <item itemvalue="CMake Application.1-7-EOFTest" />
       <item itemvalue="CMake Application.2-10-InplaceSwap" />
       <item itemvalue="CMake Application.2-1-DistinguishUnsignedBetweenSigned" />
-      <item itemvalue="CMake Application.TimeTest" />
+      <item itemvalue="CMake Application.2-3-htoi" />
+      <item itemvalue="CMake Application.2-4-Squeeze" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -204,6 +255,85 @@
       <workItem from="1669725620952" duration="158000" />
       <workItem from="1669725781449" duration="132000" />
       <workItem from="1669725917258" duration="95000" />
+      <workItem from="1669871696416" duration="67000" />
+      <workItem from="1669975204226" duration="365000" />
+      <workItem from="1669975572060" duration="185000" />
+      <workItem from="1669975778285" duration="59000" />
+      <workItem from="1669976120608" duration="45000" />
+      <workItem from="1669976351036" duration="96000" />
+      <workItem from="1669976534985" duration="50000" />
+      <workItem from="1669976623490" duration="38000" />
+      <workItem from="1669976778908" duration="28000" />
+      <workItem from="1669976820735" duration="3362000" />
+      <workItem from="1669985819693" duration="71000" />
+      <workItem from="1669985971070" duration="118000" />
+      <workItem from="1669986180973" duration="5629000" />
+      <workItem from="1669997660141" duration="3008000" />
+      <workItem from="1670036307621" duration="3540000" />
+      <workItem from="1670039851732" duration="1368000" />
+      <workItem from="1670041250042" duration="2049000" />
+      <workItem from="1670327878462" duration="27000" />
+      <workItem from="1670328172973" duration="272000" />
+      <workItem from="1670329095606" duration="50000" />
+      <workItem from="1670329162659" duration="25000" />
+      <workItem from="1670329242152" duration="313000" />
+      <workItem from="1670329558697" duration="43000" />
+      <workItem from="1670329605363" duration="194000" />
+      <workItem from="1670329801753" duration="1501000" />
+      <workItem from="1670331304586" duration="601000" />
+      <workItem from="1670377925545" duration="95000" />
+      <workItem from="1670378040860" duration="2477000" />
+      <workItem from="1670387925424" duration="748000" />
+      <workItem from="1670388682504" duration="1000" />
+      <workItem from="1670388789620" duration="647000" />
+      <workItem from="1670389574635" duration="44000" />
+      <workItem from="1670389633065" duration="104000" />
+      <workItem from="1670389739808" duration="866000" />
+      <workItem from="1670390815808" duration="29000" />
+      <workItem from="1670390899227" duration="24000" />
+      <workItem from="1670391004887" duration="81000" />
+      <workItem from="1670391194609" duration="4542000" />
+      <workItem from="1670399516263" duration="773000" />
+      <workItem from="1670401488250" duration="654000" />
+      <workItem from="1670402425655" duration="150000" />
+      <workItem from="1670402594503" duration="255000" />
+      <workItem from="1670403819034" duration="39000" />
+      <workItem from="1670404034378" duration="14000" />
+      <workItem from="1670404175076" duration="41000" />
+      <workItem from="1670404276083" duration="4846000" />
+      <workItem from="1670409233265" duration="140000" />
+      <workItem from="1670409416438" duration="2718000" />
+      <workItem from="1670414045745" duration="1862000" />
+      <workItem from="1670416182949" duration="1494000" />
+      <workItem from="1670514267549" duration="232000" />
+      <workItem from="1670577129037" duration="23000" />
+      <workItem from="1670577178264" duration="22000" />
+      <workItem from="1670577219103" duration="100000" />
+      <workItem from="1670577337300" duration="75000" />
+      <workItem from="1670577432371" duration="35000" />
+      <workItem from="1670577491374" duration="1000" />
+      <workItem from="1670577550828" duration="74000" />
+      <workItem from="1670577652436" duration="14000" />
+      <workItem from="1670577688675" duration="47000" />
+      <workItem from="1670751207777" duration="700000" />
+      <workItem from="1670753857894" duration="253000" />
+      <workItem from="1670754134656" duration="1409000" />
+      <workItem from="1670755606916" duration="2821000" />
+      <workItem from="1670760760634" duration="270000" />
+      <workItem from="1670843146087" duration="150000" />
+      <workItem from="1670843400353" duration="327000" />
+      <workItem from="1670843732301" duration="68000" />
+      <workItem from="1670843827819" duration="14000" />
+      <workItem from="1670843904251" duration="43000" />
+      <workItem from="1670843981852" duration="6000" />
+      <workItem from="1670844028652" duration="287000" />
+      <workItem from="1670844506048" duration="280000" />
+      <workItem from="1670845706983" duration="8189000" />
+      <workItem from="1670900327613" duration="8000" />
+      <workItem from="1670900349326" duration="67000" />
+      <workItem from="1670900424177" duration="44000" />
+      <workItem from="1670918336795" duration="2023000" />
+      <workItem from="1670920384774" duration="485000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1669193416141</created>
@@ -254,7 +384,91 @@
       <option name="project" value="LOCAL" />
       <updated>1669725949046</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更新">
+      <created>1669871718840</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669871718840</updated>
+    </task>
+    <task id="LOCAL-00009" summary="更新">
+      <created>1669985384486</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669985384486</updated>
+    </task>
+    <task id="LOCAL-00010" summary="打印长度大于80字符的所有输入行">
+      <created>1669999984952</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669999984952</updated>
+    </task>
+    <task id="LOCAL-00011" summary="删除行末尾空格及制表符">
+      <created>1670044172035</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670044172035</updated>
+    </task>
+    <task id="LOCAL-00012" summary="删除行末尾空格及制表符">
+      <created>1670330936358</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670330936358</updated>
+    </task>
+    <task id="LOCAL-00013" summary="更新">
+      <created>1670402827363</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670402827363</updated>
+    </task>
+    <task id="LOCAL-00014" summary="更新">
+      <created>1670514380223</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670514380223</updated>
+    </task>
+    <task id="LOCAL-00015" summary="更新">
+      <created>1670843198090</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670843198090</updated>
+    </task>
+    <task id="LOCAL-00016" summary="更新">
+      <created>1670843714196</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670843714196</updated>
+    </task>
+    <task id="LOCAL-00017" summary="更新">
+      <created>1670856410013</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670856410013</updated>
+    </task>
+    <task id="LOCAL-00018" summary="更新">
+      <created>1670857252400</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670857252400</updated>
+    </task>
+    <task id="LOCAL-00019" summary="更新">
+      <created>1670918955079</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670918955079</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,9 +487,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新第二章" />
-    <MESSAGE value="更新" />
     <MESSAGE value="字符频率直方图" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符频率直方图" />
+    <MESSAGE value="打印长度大于80字符的所有输入行" />
+    <MESSAGE value="删除行末尾空格及制表符" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="CMakeExceptionBreakpoint" />
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
